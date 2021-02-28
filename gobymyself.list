@@ -1,6 +1,10 @@
 #myself
 
-
 DOMAIN-SUFFIX,pypy666.me
 DOMAIN-SUFFIX,prprcloud.com
 IP-CIDR,34.80.178.3/24,no-resolve
+  
+  # > Speedtest by Ookla
+DOMAIN-KEYWORD,speedtest
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,speed.cloudflare.com
