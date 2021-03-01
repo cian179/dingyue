@@ -1,8 +1,8 @@
 #myself
 
-DOMAIN-SUFFIX,pypy666.me
+#DOMAIN-SUFFIX,pypy666.me
 DOMAIN-SUFFIX,prprcloud.com
-IP-CIDR,34.80.178.3/24,no-resolve
+#IP-CIDR,34.80.178.3/24,no-resolve
   
   # > Speedtest by Ookla
 # DOMAIN-KEYWORD,speedtest
