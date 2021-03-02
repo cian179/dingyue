@@ -1,7 +1,7 @@
 #myself
 
 #DOMAIN-SUFFIX,pypy666.me
-DOMAIN-SUFFIX,prprcloud.com
+#DOMAIN-SUFFIX,prprcloud.com
 #IP-CIDR,34.80.178.3/24,no-resolve
   
   # > Speedtest by Ookla
