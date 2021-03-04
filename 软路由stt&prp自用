@@ -12,7 +12,7 @@ ruleset=🩹 代理修补,https://raw.githubusercontent.com/cian179/dingyue/main
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/cian179/dingyue/main/justgo.list
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
 ruleset=🛴 一般下载,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-ruleset=📽 EMBY,https://raw.githubusercontent.com/cian179/dingyue/main/emby.list
+ruleset=📽 EMBY-PR,https://raw.githubusercontent.com/cian179/dingyue/main/emby.list
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
@@ -85,7 +85,7 @@ custom_proxy_group=🏳️‍🌈原生节点`url-test`!!GROUPID=0-1!!(香港+.*
 custom_proxy_group=✈原生转移`fallback`!!GROUPID=0-1!!(`香港 华东+.*原生`台湾 华东+.*原生`V3+.*狮+.*NF`V3+.*港+.*NF`V3+.*台+.*NF`香港+.*原生`V2+.*港+.*NF`V2+.*台+.*NF`V2+.*狮+.*NF`台湾+.*原生)`http://www.gstatic.com/generate_204`200,,70
 
 custom_proxy_group=📲 电报消息`select`[]🇸🇬 狮城选择`[]🚀 节点选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
-custom_proxy_group=📽 EMBY`select`[]⚔ EB选择`[]🎞 EB转移`[]🛡 EB节点`[]DIRECT`[]✈原生转移
+custom_proxy_group=📽 EMBY-PR`select`[]⚔ EB选择`[]🎞 EB转移`[]🛡 EB节点`[]DIRECT`[]✈原生转移
 custom_proxy_group=🎶 Spotify`select`[]DIRECT`[]✈原生转移`[]🇨🇳 台湾选择`[]🏳️‍🌈原生节点`[]🎥 奈飞节点`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港选择`[]💰 专线节点`[]💎 专线转移`[]🇨🇳 台湾选择`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换
 custom_proxy_group=📹 油管视频`select`[]✈原生转移`[]🇨🇳 台湾选择`[]🇭🇰 香港选择`[]🏳️‍🌈原生节点`[]🎥 奈飞节点`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
 custom_proxy_group=🎥 奈飞视频`select`[]✈原生转移`[]🏳️‍🌈原生节点`[]🎥 奈飞节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
