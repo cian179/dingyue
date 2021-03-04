@@ -3,7 +3,7 @@
 exclude_remarks=(游戏|不建议|02|镇江|US|免流|下载|移动)
 ;exclude_remarks=(NF*(US))
 
-;rename_node=!!GROUPID=0!!\|@pr
+rename_node=!!GROUPID=0!!(\|)@pr
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
