@@ -76,7 +76,7 @@ ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]💰 专线节点`[]💎 专线转移`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]🇭🇰 香港选择`[]🇨🇳 台湾选择`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]💰 专线节点`[]💎 专线转移`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🚀 手动切换`select`!!GROUPID=0-1
 custom_proxy_group=♻️ 自动选择`url-test`!!GROUPID=0-1`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🏳️‍🌈原生节点`url-test`!!GROUPID=0-1!!(香港+.*原生|台湾+.*原生|V3+.*狮+.*NF|V3+.*港+.*NF|V3+.*台+.*NF|V2+.*狮+.*NF|V2+.*港+.*NF|V2+.*台+.*NF)`http://www.gstatic.com/generate_204`300,,50
