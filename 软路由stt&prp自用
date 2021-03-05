@@ -3,7 +3,7 @@
 exclude_remarks=(游戏|不建议|02|镇江|US|免流|下载|移动)
 exclude_remarks=(NF*(US))
 
-include_remarks=!!GROUPID=2!!(专线)
+;include_remarks=!!GROUPID=2!!(专线)
 
 
 rename_node=!!GROUPID=0!!(\|)@Pr
