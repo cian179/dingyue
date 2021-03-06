@@ -36,10 +36,10 @@ ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
-ruleset=📢 谷歌🇨🇳,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-ruleset=📢 谷歌🇨🇳,[]DOMAIN-SUFFIX,services.googleapis.cn
-ruleset=📢 谷歌🇨🇳,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
-ruleset=📢 谷歌🇨🇳,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list
+ruleset=📢 谷歌,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=📢 谷歌,[]DOMAIN-SUFFIX,services.googleapis.cn
+ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth.list
 
@@ -92,7 +92,7 @@ custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾选择`[]🏳️‍
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🚀 手动切换
 custom_proxy_group=📺 哔哩哔哩`select`[]🎯 全球直连`[]🇨🇳 台湾节点`[]🇭🇰 香港节点
 
-custom_proxy_group=📢 谷歌🇨🇳`select`[]🇨🇳 台湾选择`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]⛑🇭🇰 香港高防选择`[]🇭🇰 香港选择`[]🚀 节点选择`[]DIRECT`[]🏳️‍🌈原生节点`[]✈原生转移`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
+;custom_proxy_group=📢 谷歌🇨🇳`select`[]🇨🇳 台湾选择`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]⛑🇭🇰 香港高防选择`[]🇭🇰 香港选择`[]🚀 节点选择`[]DIRECT`[]🏳️‍🌈原生节点`[]✈原生转移`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
 custom_proxy_group=📢 谷歌`select`[]🇨🇳 台湾选择`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]⛑🇭🇰 香港高防选择`[]🇭🇰 香港选择`[]🚀 节点选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
 
 custom_proxy_group=Ⓜ️ 微软云盘`select`[]DIRECT`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]⛑🇭🇰 香港高防选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港选择`[]🇨🇳 台湾选择`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]💎 专线转移
