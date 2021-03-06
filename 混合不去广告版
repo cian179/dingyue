@@ -1,7 +1,7 @@
 [custom]
 ;cian根据自身网络环境更改 请勿乱用 prpr+sst+cord 12正常v2订阅 34专线ss订阅  混合不去广告版
 rename_node=!!GROUPID=0!!(\|)@Pr
-exclude_remarks=((游戏)|(Pr+.*3x)|(镇江)|(US)|(免流)|(下载)|(不建议)|(移动))
+exclude_remarks=((游戏)|(Pr+.*3x)|(10[0-5]+.*Pr)|([0-5]02+.*Pr)|(镇江)|(US)|(免流)|(下载)|(不建议)|(移动))
 
 ;exclude_remarks=(NF*(US))|([0-9]02+.*Pr)
 
