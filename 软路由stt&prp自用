@@ -38,6 +38,8 @@ ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
 ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
 ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO.list
+ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO_GO_HKG.list
 ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
@@ -94,6 +96,7 @@ custom_proxy_group=📹 油管视频`select`[]⛑🇭🇰 香港高防选择`[]�
 custom_proxy_group=🎥 奈飞视频`select`[]✈原生转移`[]🏳️‍🌈原生节点`[]🎥 奈飞节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
 custom_proxy_group=🌍 国外媒体`select`[]✈原生转移`[]🏳️‍🌈原生节点`[]🎥 奈飞节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
 custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾选择`[]🏳️‍🌈原生节点`[]DIRECT`[]🇨🇳 台湾节点`[]💰 专线节点`[]💎 专线转移
+custom_proxy_group=🖥 HBO`select`[]✈原生转移`[]🏳️‍🌈原生节点`[]🎥 奈飞节点`[]🇺🇲 美国节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
 
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🚀 手动切换
 custom_proxy_group=📺 哔哩哔哩`select`[]🎯 全球直连`[]🇨🇳 台湾节点`[]🇭🇰 香港节点
