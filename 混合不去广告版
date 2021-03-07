@@ -1,11 +1,11 @@
 [custom]
 ;cian根据自身网络环境更改 请勿乱用 prpr+sst+cord 12正常v2订阅 34专线ss订阅  混合不去广告版
 rename_node=!!GROUPID=0!!(\|)@Pr
-exclude_remarks=((游戏)|(10\d+.*3)|(\d02+.*Pr)|(镇江)|(US)|(免流)|(下载)|(移动))
+exclude_remarks=((游戏)|(10\d+.*3)|(\d02+.*Pr)|(镇江)|(免流)|(下载)|(移动))
 
 ;exclude_remarks=(NF*(US))|([0-9]02+.*Pr)(A).*(B)    节点名既有 A又有 B (A)|(B)     节点名有 A 或者 B  ^((?!A).)*$     节点名不含有 A (?!.*(A)).*(B)  节点名不含有 A，同时含有 B
 
-;include_remarks=!!GROUPID=2!!(专线)(10[0-9]+.*Pr)
+;include_remarks=!!GROUPID=2!!(专线)(10[0-9]+.*Pr)|(US)
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
