@@ -63,7 +63,7 @@ ruleset=🎮 游戏平台,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Xbox.list
 ;ruleset=🎮 游戏平台,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Blizzard.list
 ;ruleset=🎮 打游戏,https://raw.githubusercontent.com/cian179/dingyue/main/game.list
-
+ruleset=⏱ SpeedTest,https://raw.githubusercontent.com/LM-Firefly/Rules/master/SpeedTest.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 ;ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
@@ -77,6 +77,7 @@ ruleset=🐟 漏网之鱼,[]FINAL
 ;设置分组标志位
 custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]⛑🇭🇰 香港高防选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]🇭🇰 香港选择`[]🇨🇳 台湾选择`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]💰 专线节点`[]💎 专线转移`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🚀 手动切换`select`!!GROUPID=0-1
+custom_proxy_group=⏱ SpeedTest,`select`[]DIRECT`[]♻️ 自动选择`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]⛑🇭🇰 香港高防选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]🇭🇰 香港选择`[]🇨🇳 台湾选择`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]💰 专线节点`[]💎 专线转移`[]🚀 手动切换
 
 custom_proxy_group=📲 电报消息`select`[]🇸🇬 狮城选择`[]🚀 节点选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
 custom_proxy_group=📽 EMBY-PR`select`[]⚔ EB选择`[]🎞 EB转移`[]🛡 EB节点`[]DIRECT`[]✈原生转移
