@@ -146,7 +146,7 @@ custom_proxy_group=⛑🇯🇵 日本高防选择`url-test`!!GROUPID=0-1!!(日+.
 custom_proxy_group=🇭🇰 香港选择`url-test`!!GROUPID=0-1!!(^(?!.*?AIA).*(港|HK|Hong Kong))`http://www.gstatic.com/generate_204`120,5,50
 custom_proxy_group=🇨🇳 台湾选择`url-test`!!GROUPID=0-1!!(^(?!.*?AIA).*(台|新北|彰化|TW|Taiwan))`http://www.gstatic.com/generate_120`200,5,50
 custom_proxy_group=⚔ EB选择`url-test`!!GROUPID=0-1!!(^(?!.*?AIA).*(Em))`http://www.gstatic.com/generate_204`120,5,50
-custom_proxy_group=🇸🇬 狮城选择`select`!!GROUPID=0-1!!(^(?!.*?AIA).*(新加坡|新|坡|狮城|SG|Singapore))`http://www.gstatic.com/generate_204`200,5,100
+custom_proxy_group=🇸🇬 狮城选择`url-test`!!GROUPID=0-1!!(^(?!.*?AIA).*(新加坡|新|坡|狮城|SG|Singapore))`http://www.gstatic.com/generate_204`200,5,100
 custom_proxy_group=💎 专线转移`url-test`(IEP|IPLC|游戏|AIA|专线)`http://www.gstatic.com/generate_204`200,5,70
 
 
