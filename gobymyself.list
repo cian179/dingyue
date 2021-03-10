@@ -9,8 +9,9 @@ DOMAIN,sttcloud.net
 DOMAIN-KEYWORD,cordcloud
 #IP-CIDR,34.80.178.3/24,no-resolve
 DOMAIN-KEYWORD,evernote
+DOMAIN-KEYWORD,yinxiang
 DOMAIN-SUFFIX,evernote.com
-
+DOMAIN-SUFFIX,yinxiang.com
 ## > Blued
 DOMAIN-SUFFIX,blued.cn
 DOMAIN-SUFFIX,blued.com
