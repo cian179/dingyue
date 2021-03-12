@@ -6,6 +6,7 @@ DOMAIN,v2raytech.com
 DOMAIN,sub.pypy666.me
 DOMAIN,suc.pypy666.me
 DOMAIN,sttcloud.net
+DOMAIN-KEYWORD,sttcloud
 DOMAIN-KEYWORD,cordcloud
 #IP-CIDR,34.80.178.3/24,no-resolve
 DOMAIN-KEYWORD,evernote
