@@ -2,7 +2,8 @@
 ;cian根据自身网络环境更改 请勿乱用 prpr+sst+cord 12正常v2订阅 34专线ss订阅
 rename_node=!!GROUPID=0!!(\|)@Pr
 exclude_remarks=((游戏)|(香港+.*0\d+.*2)|(镇江)|(免流)|(下载)|(移动))
-;include_remarks=!!GROUPID=2!!(专线)(10[0-9]+.*Pr)|(US)|(\d02+.*Pr)
+
+;include_remarks=((BGP)|(GIA)|(高防)|(原生)|(Emby)|(联通)|(AIA)|(NF)|(专线))
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
