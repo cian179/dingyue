@@ -17,7 +17,7 @@ DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,yinxiang.com
 DOMAIN-SUFFIX,gcash.com
 DOMAIN-KEYWORD,gcash
-
+DOMAIN-SUFFIX,cloudflare.com
 
 #signal
 DOMAIN-KEYWORD,signal
