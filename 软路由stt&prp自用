@@ -1,7 +1,7 @@
 [custom]
 ;cian根据自身网络环境更改 请勿乱用 prpr+sst+cord 12正常v2订阅 34专线ss订阅
 rename_node=!!GROUPID=0!!(\|)@Pr
-exclude_remarks=((游戏)|(香港+.*0\d+.*2)|(镇江)|(免流)|(下载)|(移动))
+exclude_remarks=((游戏)|(香港+.*0\d+.*2)|(镇江)|(免流)|(下载))
 
 ;include_remarks=((BGP)|(GIA)|(高防)|(原生)|(Emby)|(联通)|(AIA)|(NF)|(专线))
 
