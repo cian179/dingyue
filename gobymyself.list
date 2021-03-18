@@ -11,7 +11,7 @@ DOMAIN-KEYWORD,cordcloud
 DOMAIN-KEYWORD,docker
 
 #IP-CIDR,34.80.178.3/24,no-resolve
-IP-CIDR,35.229.224.179,no-resolve
+#IP-CIDR,35.229.224.179,no-resolve
 DOMAIN-KEYWORD,evernote
 DOMAIN-KEYWORD,yinxiang
 DOMAIN-SUFFIX,evernote.com
