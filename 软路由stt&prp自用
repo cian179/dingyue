@@ -140,7 +140,7 @@ custom_proxy_group=💰 专线节点`select`(IEP|IPLC|游戏|AIA|专线)
 
 custom_proxy_group=✈原生转移`fallback`!!GROUPID=0-1!!(`香港 A+.*原生`台湾 A+.*原生`V3+.*狮+.*NF`V3+.*港+.*NF`V3+.*台+.*NF`港+.*3\d\d+.*NF`台+.*3\d\d+.*NF`狮+.*3\d\d+.*NF`香港+.*原生`港+.*2\d\d+.*NF`台+.*2\d\d+.*NF`狮+.*2\d\d+.*NF`V2+.*港+.*NF`V2+.*台+.*NF`V2+.*狮+.*NF`台湾+.*原生)`http://www.gstatic.com/generate_204`180,5,70
 custom_proxy_group=🇷🇺 俄国转移`fallback`!!GROUPID=0-1!!(^(?!.*?AIA).*(俄|俄羅斯|RUS))`http://www.gstatic.com/generate_204`300,5,100
-custom_proxy_group=⛑ 高防转移`fallback`!!GROUPID=0-1!!(`港+.*A+.*04`港+.*A+.*03`港+.*A+.*02`港+.*A+.*01`港+.*A+.*05`日+.*B+.*02`日本+.*B+.*NF)`http://www.gstatic.com/generate_204`300,5,100
+custom_proxy_group=⛑ 高防转移`fallback`!!GROUPID=0-1!!(`港+.*A+.*04`港+.*A+.*03`港+.*A+.*02`港+.*A+.*01`港+.*A+.*05`日+.*B+.*02`日本+.*B+.*0[1-4])`http://www.gstatic.com/generate_204`300,5,100
 custom_proxy_group=🎞 EB转移`fallback`!!GROUPID=0-1!!(`Em+.*0x`V3+.*Em`3\d\d+.*Em`V2+.*Em`2\d\d+.*Em`Em)`http://www.gstatic.com/generate_204`300,5,100
 custom_proxy_group=✈美国原生`fallback`!!GROUPID=0-1!!(`((美).*(A).*(原生))`((美).*(原生))`((美).*(Pr).*(NF)))`http://www.gstatic.com/generate_204`300,5,100
 custom_proxy_group=✈台湾原生`fallback`!!GROUPID=0-1!!(`((台).*(A).*(02).*(原生))`((台).*(02).*(原生))`((台).*(原生))`((美).*(Pr).*(NF)))`http://www.gstatic.com/generate_204`240,5,100
