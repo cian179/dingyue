@@ -13,7 +13,7 @@ DOMAIN,p3terx.com
 DOMAIN-KEYWORD,nytimes
 DOMAIN-SUFFIX,nytimes.com
 
-DOMAIN-KEYWORD,eset
+#DOMAIN-KEYWORD,eset
 DOMAIN-KEYWORD,nod32store
 
 DOMAIN-KEYWORD,bitdefender
