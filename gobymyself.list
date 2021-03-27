@@ -14,6 +14,14 @@ DOMAIN-KEYWORD,nytimes
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,opensubtitles.org
 DOMAIN-KEYWORD,opensubtitles
+DOMAIN-KEYWORD,isubtitles
+DOMAIN-KEYWORD,subscene
+DOMAIN-KEYWORD,addic7ed
+DOMAIN-KEYWORD,subtitleshub
+DOMAIN-KEYWORD,tvsubtitles
+DOMAIN-KEYWORD,yifysubtitles
+DOMAIN-KEYWORD,subhd
+
 
 #DOMAIN-KEYWORD,eset
 DOMAIN-KEYWORD,nod32store
