@@ -13,6 +13,8 @@ DOMAIN,p3terx.com
 DOMAIN-KEYWORD,nytimes
 DOMAIN-SUFFIX,nytimes.com
 
+
+DOMAIN-KEYWORD,nod32store
 #IP-CIDR,34.80.178.3/24,no-resolve
 
 DOMAIN-KEYWORD,evernote
