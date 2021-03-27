@@ -10,6 +10,8 @@ DOMAIN-KEYWORD,sttcloud
 DOMAIN-KEYWORD,cordcloud
 DOMAIN-KEYWORD,docker
 DOMAIN,p3terx.com
+DOMAIN-KEYWORD,nytimes
+DOMAIN-SUFFIX,nytimes.com
 
 #IP-CIDR,34.80.178.3/24,no-resolve
 
