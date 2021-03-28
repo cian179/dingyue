@@ -9,6 +9,7 @@ exclude_remarks=((游戏)|(香港+.*0\d+.*2x)|(镇江)|(免流)|(下载))
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=🩹 代理修补,https://raw.githubusercontent.com/cian179/dingyue/main/gobymyself.list
+ruleset=📥 BT下载,https://raw.githubusercontent.com/cian179/dingyue/main/btdown.list
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/cian179/dingyue/main/justgo.list
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
 ruleset=🛴 一般下载,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
@@ -52,7 +53,7 @@ ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
 ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Samsung
+ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Samsung.list
 
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
@@ -67,7 +68,9 @@ ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/ma
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/cian179/dingyue/main/onedrive.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list
-ruleset=🏛 PayPal,https://raw.githubusercontent.com/cian179/dingyue/main/PayPal.list
+ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/cian179/dingyue/main/PayPal.list
+ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/79f4b4ce87cf9f43d6293ad4271cf344de9891c4/PROXY/eBay.list
+ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/79f4b4ce87cf9f43d6293ad4271cf344de9891c4/PROXY/Amazon.list
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 
 ruleset=🎮 CNSteam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
@@ -112,8 +115,10 @@ custom_proxy_group=📢 谷歌`select`[]✈台湾原生`[]🇨🇳 台湾选择`
 custom_proxy_group=🥂 社交媒体`select`select`[]✈台湾原生`[]✈原生转移`[]🏳️‍🌈原生节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]💎 专线转移
 custom_proxy_group=Ⓜ️ 微软云盘`select`[]DIRECT`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]⛑🇭🇰 香港高防选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港选择`[]🇨🇳 台湾选择`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]💎 专线转移
 custom_proxy_group=Ⓜ️ 微软服务`select`[]⛑🇭🇰 香港高防选择`[]🇭🇰 香港选择`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]DIRECT`[]🏳️‍🌈原生节点`[]✈原生转移`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇨🇳 台湾选择`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]💎 专线转移
-custom_proxy_group=🏛 PayPal`select`[]🇭🇰 香港选择`[]DIRECT`[]🏳️‍🌈原生节点`[]✈原生转移`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]💎 专线转移
+custom_proxy_group=🛍 AmPPeB`select`[]✈原生转移`[]✈美国原生`[]✈台湾原生`[]🇭🇰 香港选择`[]DIRECT`[]🏳️‍🌈原生节点`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]💎 专线转移
+
 custom_proxy_group=🗃 群晖`select`[]⛑🇭🇰 香港高防选择`[]🇭🇰 香港选择`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]DIRECT`[]🏳️‍🌈原生节点`[]✈原生转移`[]🚀 节点选择
+custom_proxy_group=📥 BT下载`select`[]DIRECT`[]🏳️‍🌈原生节点`[]🚀 节点选择`[]✈美国原生`[]✈台湾原生`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]⛑🇭🇰 香港高防选择`[]✈原生转移`[]♻️ 自动选择`[]💰 专线节点`[]💎 专线转移
 
 custom_proxy_group=🎮 游戏平台`select`[]⛑🇭🇰 香港高防选择`[]🇭🇰 香港选择`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]DIRECT`[]🚀 节点选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]🇷🇺 俄国转移`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]💎 专线转移
 custom_proxy_group=🎮 Steam平台`select`[]⛑🇭🇰 香港高防选择`[]🇭🇰 香港选择`[]⛑ 高防转移`[]⛑🇯🇵 日本高防选择`[]DIRECT`[]🚀 节点选择`[]🏳️‍🌈原生节点`[]✈原生转移`[]🇷🇺 俄国转移`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]💎 专线转移
