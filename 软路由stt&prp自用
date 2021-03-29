@@ -54,6 +54,7 @@ ruleset=🌍 国外媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Samsung.list
 
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
+ruleset=📢 谷歌,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitbook.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
 ruleset=📢 谷歌,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=📢 谷歌,[]DOMAIN-SUFFIX,services.googleapis.cn
@@ -62,6 +63,8 @@ ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth.list
 
+ruleset=🩹 代理修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Apkpure.list
+ruleset=🩹 代理修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IMDB.list
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/cian179/dingyue/main/onedrive.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
@@ -69,6 +72,7 @@ ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/LM-Firefly/Rules/m
 ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/cian179/dingyue/main/PayPal.list
 ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/79f4b4ce87cf9f43d6293ad4271cf344de9891c4/PROXY/eBay.list
 ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/79f4b4ce87cf9f43d6293ad4271cf344de9891c4/PROXY/Amazon.list
+ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bestbuy.list
 ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/80dc7e5e77b6416a0f577b5c3515a67c7779018b/PROXY/Shopee.list
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 
