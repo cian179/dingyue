@@ -1,4 +1,4 @@
-#myself
+#myself 代理修补
 
 #DOMAIN-SUFFIX,pypy666.me
 #DOMAIN,prprcloud.com
@@ -22,6 +22,7 @@ DOMAIN-KEYWORD,tvsubtitles
 DOMAIN-KEYWORD,yifysubtitles
 DOMAIN-KEYWORD,subhd
 DOMAIN,apk.center
+DOMAIN,www.sto.cx
 
 
 #DOMAIN-KEYWORD,eset
