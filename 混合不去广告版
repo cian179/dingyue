@@ -7,6 +7,12 @@
 
 include_remarks=((S-)|(A-)|(B-)|(原生)|(IPLC)|(C-)|(专线)|(新加坡 [0-2][0-9])|(Em)|(备用)|(剩余)|(流量)|(期)|(剩余流量)|(过期时间))
 
+rename_node=转@转cc备用
+rename_node=深港专线@专线
+rename_node=广东移动@广移
+rename_node=湖南联通@湖联
+rename_node=长沙联通@长联
+
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
