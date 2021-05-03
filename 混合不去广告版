@@ -7,9 +7,8 @@
 
 include_remarks=((S-)|(A-)|(B-)|(原生)|(IPLC)|(C-)|(专线)|(新加坡 [0-2][0-9])|(Em)|(俄)|(香港+.*[M])|(新加坡+.*[M])|(台+.*[M])|(备用)|(流量)|(期)|(过期时间))
 
-
-rename_node=深港专线@深港专线cc备用
 rename_node=转@转cc备用
+rename_node=深港专线@深港专线转
 rename_node=A-@A-stt
 rename_node=S-@S-stt
 rename_node=B-@B-stt
