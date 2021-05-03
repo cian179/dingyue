@@ -8,15 +8,17 @@
 include_remarks=((S-)|(A-)|(B-)|(原生)|(IPLC)|(C-)|(专线)|(新加坡 [0-2][0-9])|(Em)|(俄)|(长沙联通转新加坡Azure[M)|(长沙联通转香港Azure[M)|(长沙联通转香港Azure3[M)|(长沙联通转新加坡NTT[M)|(长沙联通转香港HKT17[M)||(广东移动转香港HKTB[M)|(广州移动转新加坡AWS[M)|(广东移动转新加坡Azure[M)|(广东移动转新加坡HE[M])|(广东移动转香港HKT19[M])|(广东移动转新加坡DO[M])|(备用)|(湖南联通转香港HKBN2[M])|(流量)|(期)|(湖南联通转新加坡NTT[M])|(过期时间))
 
 
-rename_node=深港专线@专线转cc备用
-rename_node=广东移动转@广东移动转cc备用
-rename_node=湖南联通转@湖南联通转cc备用
-rename_node=长沙联通转@湖南联通转cc备用
+rename_node=深港专线@深港专线cc备用
+rename_node=转@转cc备用
 rename_node=A-@A-stt
 rename_node=S-@S-stt
 rename_node=B-@B-stt
 rename_node=C-@C-stt
 rename_node=Shadowsocks@SS
+
+;rename_node=广东移动转@广东移动转cc备用
+;rename_node=湖南联通转@湖南联通转cc备用
+;rename_node=长沙联通转@湖南联通转cc备用
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
