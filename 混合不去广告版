@@ -22,7 +22,6 @@ rename_node=备用网址@网址
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=🩹 代理修补,https://raw.githubusercontent.com/cian179/dingyue/main/gobymyself.list
 ruleset=📥 BTweb,https://raw.githubusercontent.com/cian179/dingyue/main/btdown.list
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/cian179/dingyue/main/justgo.list
