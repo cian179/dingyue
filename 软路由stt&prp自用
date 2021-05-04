@@ -42,7 +42,6 @@ ruleset=📹 油管视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=📹 油管视频,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BrightCove.list
 ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list
-ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list
 
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Facebook.list
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list
