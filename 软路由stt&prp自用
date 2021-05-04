@@ -36,6 +36,7 @@ ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
 
+ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 ruleset=🎶 Spotify,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list
 ruleset=🎶 Spotify,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Spotify.list
 ruleset=📹 油管视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
@@ -86,7 +87,7 @@ ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/79f4b4ce8
 ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/79f4b4ce87cf9f43d6293ad4271cf344de9891c4/PROXY/Amazon.list
 ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bestbuy.list
 ruleset=🛍 AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/80dc7e5e77b6416a0f577b5c3515a67c7779018b/PROXY/Shopee.list
-ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+
 
 ruleset=🎮 CNSteam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=🎮 Steam平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
