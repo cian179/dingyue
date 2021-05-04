@@ -30,8 +30,6 @@ ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 ruleset=📽 EMBY-PR,https://raw.githubusercontent.com/cian179/dingyue/main/emby.list
 
-ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/115.list
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list
 ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
@@ -167,7 +165,6 @@ custom_proxy_group=🇸🇬 狮城选择`url-test`(^(?!.*?转).*(新加坡|新|�
 custom_proxy_group=💎 专线转移`url-test`(IEP|IPLC|游戏|AIA|专线)`http://www.gstatic.com/generate_204`300,5,70
 custom_proxy_group=☔ 备用节点`url-test`(^(?!.*?专线).*(备用))`http://www.gstatic.com/generate_204`300,5,70
 
-custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 
 
 ;设置分组标志位
