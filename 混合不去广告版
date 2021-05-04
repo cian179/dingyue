@@ -38,7 +38,6 @@ ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 ruleset=🎶 Spotify,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list
-ruleset=🎶 Spotify,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Spotify.list
 ruleset=📹 油管视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
 ruleset=📹 油管视频,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BrightCove.list
 ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
