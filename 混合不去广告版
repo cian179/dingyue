@@ -61,8 +61,8 @@ ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Samsung.list
 
 ruleset=🇵🇭 Globe,https://raw.githubusercontent.com/cian179/dingyue/main/Globe.list
-ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
-ruleset=🖥 HBO,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitbook.list
+ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
+ruleset=📢 谷歌,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitbook.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
 ruleset=📢 谷歌,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=📢 谷歌,[]DOMAIN-SUFFIX,services.googleapis.cn
