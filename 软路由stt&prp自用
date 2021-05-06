@@ -5,7 +5,7 @@
 
 ;exclude_remarks=(NF*(US))|([0-9]02+.*Pr)(A).*(B)    节点名既有 A又有 B (A)|(B)     节点名有 A 或者 B  ^((?!A).)*$     节点名不含有 A (?!.*(A)).*(B)  节点名不含有 A，同时含有 B
 
-include_remarks=((S-)|(A-)|(B-)|(原生)|(IPLC)|(C-)|(专线+.*[M])|(新加坡 [0-2][5-9])|([1-2][3-9]+.*Em)|(俄)|(菲)|(香港+.*[M])|(新加坡+.*[M])|(台+.*[M])|(备用)|(剩余流量)|(GB)|(Em+.*0)|(过期时间))
+include_remarks=((S-)|(A-)|(B-)|(原生)|(IPLC)|(C-)|(专线+.*[M])|(新加坡 [0-2][5-9])|([1-2][3-9]+.*Em)|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(备用)|(剩余流量)|(GB)|(Em+.*0)|(CLPI))
 
 rename_node=转@转cc备用
 rename_node=深港专线@深港专线转
@@ -15,6 +15,7 @@ rename_node=B-@B-stt
 rename_node=C-@C-stt
 rename_node=Shadowsocks@SS
 rename_node=备用网址@网址
+rename_node=CLPI@专线转
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
