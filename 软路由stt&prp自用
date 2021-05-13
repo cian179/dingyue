@@ -78,6 +78,7 @@ ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 
 ruleset=🩹 代理修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Apkpure.list
 ruleset=🩹 代理修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IMDB.list
+ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/cian179/dingyue/main/onedrivebissuness.list
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/cian179/dingyue/main/onedrive.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
