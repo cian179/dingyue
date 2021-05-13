@@ -4,12 +4,12 @@
 #DOMAIN,prprcloud.com
 DOMAIN-SUFFIX,steamxo.com
 DOMAIN,v2raytech.com
-DOMAIN,sub.pypy666.me
-DOMAIN,suc.pypy666.me
-DOMAIN,sttcloud.net
+#DOMAIN,sub.pypy666.me
+#DOMAIN,suc.pypy666.me
+#DOMAIN,sttcloud.net
 DOMAIN-KEYWORD,kaiju09
-DOMAIN-KEYWORD,sttcloud
-DOMAIN-KEYWORD,cordcloud
+#DOMAIN-KEYWORD,sttcloud
+#DOMAIN-KEYWORD,cordcloud
 DOMAIN-KEYWORD,fitgirlrepacks
 DOMAIN-KEYWORD,docker
 DOMAIN,p3terx.com
@@ -43,8 +43,6 @@ DOMAIN-KEYWORD,evernote
 DOMAIN-KEYWORD,yinxiang
 DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,yinxiang.com
-DOMAIN-SUFFIX,gcash.com
-DOMAIN-KEYWORD,gcash
 DOMAIN-SUFFIX,cloudflare.com
 
 DOMAIN,xn--wck3bl6f2a2hb.xn--p8jr2b2a2b5gvc4ed.com
