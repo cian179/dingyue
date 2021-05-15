@@ -24,16 +24,16 @@ rename_node=游戏专线@游戏专线转
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=🩹 代理修补,https://raw.githubusercontent.com/cian179/dingyue/main/gobymyself.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/cian179/dingyue/main/gobymyself.list
 ruleset=📥 BTweb,https://raw.githubusercontent.com/cian179/dingyue/main/btdown.list
-ruleset=🚦 直连修补,https://raw.githubusercontent.com/cian179/dingyue/main/justgo.list
-ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
-ruleset=🚦 直连修补,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main/justgo.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 ruleset=📽 EMBY-PR,https://raw.githubusercontent.com/cian179/dingyue/main/emby.list
 
-ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/115.list
-ruleset=🚦 直连修补,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list
-ruleset=🚦 直连修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/115.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
 
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 ruleset=🎶 Spotify,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list
@@ -72,8 +72,8 @@ ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list
 
-ruleset=🩹 代理修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Apkpure.list
-ruleset=🩹 代理修补,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IMDB.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Apkpure.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IMDB.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/cian179/dingyue/main/onedrivebissuness.list
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/cian179/dingyue/main/onedrive.list
@@ -127,8 +127,6 @@ custom_proxy_group=🎮 游戏平台`select`[]♻️ 香港原生`[]✈原生转
 custom_proxy_group=🎮 Steam平台`select`[]♻️ 香港原生`[]✈原生转移`[]♻️ 香港高防选择`[]DIRECT`[]🚀 节点选择`[]♻️ 原生选择`[]✈ 俄国转移`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
 custom_proxy_group=🎮 CNSteam`select`[]DIRECT`[]♻️ 香港高防选择`[]♻️ 香港原生`[]🚀 节点选择`[]♻️ 原生选择`[]✈原生转移`[]✈ 俄国转移`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
 
-custom_proxy_group=🩹 代理修补`select`[]♻️ 原生选择`[]🚀 节点选择`[]✈美国原生`[]✈台湾原生`[]♻️ 香港高防选择`[]✈原生转移`[]♻️ 自动选择`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择
-custom_proxy_group=🚦 直连修补`select`[]DIRECT`[]🚀 节点选择`[]♻️ 原生选择
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🚀 手动切换
 custom_proxy_group=📺 哔哩哔哩`select`[]DIRECT`[]🎯 全球直连`[]✈台湾原生`[]✈原生转移`[]🚀 节点选择
 custom_proxy_group=📺 巴哈姆特`select`[]✈台湾原生`[]♻️ 台湾原生`[]DIRECT`[]🇨🇳 台湾节点`[]💰 专线节点`[]♻️ 专线选择`[]🚀 手动切换
