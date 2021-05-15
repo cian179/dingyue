@@ -43,6 +43,7 @@ ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Facebook.list
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list
+ruleset=🥂 社交媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/43eac837ed6a6ade2f861c85f529656cfb054910/PROXY/Twitter.list
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Blued.list
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Tumblr.list
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
