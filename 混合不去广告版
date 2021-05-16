@@ -57,6 +57,7 @@ ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/
 ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO_GO_HKG.list
 ruleset=🖥 HBO,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list
 
+ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/cian179/dingyue/main/%E5%8F%B0%E6%B9%BE%E4%BF%AE%E8%A1%A5.list
 ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
 ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/KKBOX.list
 ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
