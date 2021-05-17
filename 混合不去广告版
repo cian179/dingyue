@@ -5,7 +5,7 @@
 
 ;exclude_remarks=(NF*(US))|([0-9]02+.*Pr)(A).*(B)    节点名既有 A又有 B (A)|(B)     节点名有 A 或者 B  ^((?!A).)*$     节点名不含有 A (?!.*(A)).*(B)  节点名不含有 A，同时含有 B
 
-include_remarks=((S-)|(A-)|(B-)|(原生)|(IPLC)|(C-)|(专线+.*[M])|(新加坡 [0-2][6-9])|(台湾 0[0-3]+.*NF)|([1-2][3-9]+.*Em)|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(备用)|(剩余流量)|(GB)|(Em+.*0)|(CLPI))
+include_remarks=((S-)|(A-)|(B-)|(原生)|(IPLC)|(C-)|(专线+.*[M])|(新加坡 [0-2][6-9])|(香港 [0-2][3-9]+.*NF)|(台湾 0[0-3]+.*NF)|([1-2][3-9]+.*Em)|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(备用)|(剩余流量)|(GB)|(Em+.*0)|(CLPI))
 
 rename_node=转@转cc备用
 rename_node=深港专线@深港专线转
@@ -19,6 +19,9 @@ rename_node=CLPI@pr专线转
 rename_node=游戏专线@游戏专线转
 
 rename_node=台湾 0@台湾特别
+rename_node=香港 0@香港特别 0
+rename_node=香港 2@香港特别 2
+rename_node=香港 1@香港特别 1
 
 ;rename_node=广东移动转@广东移动转cc备用
 ;rename_node=湖南联通转@湖南联通转cc备用
@@ -159,7 +162,7 @@ custom_proxy_group=✈台湾原生`fallback`(`((台).*(A).*(03).*(原生))`((台
 custom_proxy_group=♻️ 原生选择`url-test`(((香港).*(原生))|((台湾).*(原生))|((新).*(原生)))`http://www.gstatic.com/generate_204`240,5,60
 custom_proxy_group=♻️ 香港原生`url-test`((港).*(原生))`http://www.gstatic.com/generate_204`233,5,50
 custom_proxy_group=♻️ 台湾原生`url-test`((台|新北|彰化|TW|Taiwan).*(原生))`http://www.gstatic.com/generate_204`156,5,60
-custom_proxy_group=♻️ 特别节点`url-test`(((台|新北|彰化|TW|Taiwan).*(原生))|(台湾特别))`http://www.gstatic.com/generate_204`156,5,70
+custom_proxy_group=♻️ 特别节点`url-test`((香港特别).*(NF))`http://www.gstatic.com/generate_204`156,5,70
 
 ;custom_proxy_group=✈ 高防转移`fallback`(`港+.*A+.*2+.*NF`港+.*A+.*3+.*NF`港+.*A+.*04+.*NF`港+.*A+.*01+.*NF`日+.*stt+.*stt+.*3+.*NF`日+.*stt+.*2+.*NF`香港+.*stt+.*NF`日+.*stt+.*NF`)http://www.gstatic.com/generate_204`300,5,70
 custom_proxy_group=♻️ 香港高防选择`url-test`(香港+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,80
