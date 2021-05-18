@@ -60,6 +60,7 @@ ruleset=🗃 群晖,https://raw.githubusercontent.com/cian179/dingyue/main/Synol
 ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO.list
 ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO_GO_HKG.list
 ruleset=🖥 HBO,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list
+;ruleset=🍎 Apple,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple.list
 
 ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/cian179/dingyue/main/%E5%8F%B0%E6%B9%BE%E4%BF%AE%E8%A1%A5.list
 ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
@@ -142,6 +143,7 @@ custom_proxy_group=📺 巴哈姆特`select`[]✈台湾原生`[]♻️ 台湾原
 custom_proxy_group=🩺 ESET`select`[]DIRECT`[]🚀 节点选择`[]♻️ 原生选择`[]✈原生转移
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]♻️ 原生选择`[]✈原生转移
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]♻️ 原生选择`[]✈原生转移`[]DIRECT`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
+;custom_proxy_group=🍎 Apple`select`[]🚀 节点选择`[]✈原生转移`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈台湾原生`[]✈美国原生`[]♻️ 原生选择
 
 custom_proxy_group=🇭🇰 香港节点`select`(港|HK|Hong Kong)
 custom_proxy_group=🇯🇵 日本节点`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
