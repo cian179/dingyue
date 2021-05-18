@@ -4,4 +4,6 @@
 #DOMAIN,
 #DOMAIN-KEYWORD,
 
-#DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-KEYWORD,googleapis
+DOMAIN-SUFFIX,googlephotos.com
