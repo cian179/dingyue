@@ -3,7 +3,8 @@
 #DOMAIN-SUFFIX,
 #DOMAIN,
 #DOMAIN-KEYWORD,
+#DOMAIN-SUFFIX,googlephotos.com
+#DOMAIN-SUFFIX,googledrive.com
 
-DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN-KEYWORD,googleapis
-DOMAIN-SUFFIX,googlephotos.com
