@@ -12,14 +12,17 @@ DOMAIN-SUFFIX,samsungeshop.com.cn
 DOMAIN-SUFFIX,samsunggalaxyfriends.com
 DOMAIN-SUFFIX,samsungknox.com
 DOMAIN-SUFFIX,samsungqbe.com
-DOMAIN-KEYWORD,samsung
-
-
 
 DOMAIN,apps.samsung.com
 DOMAIN,www.samsung.com
 DOMAIN,apps.samsung.cn
 DOMAIN,img.samsungapps.com
+
+DOMAIN-KEYWORD,samsung
+DOMAIN-KEYWORD,samsungapps
+DOMAIN-KEYWORD,symcb
+DOMAIN-KEYWORD,galaxyappstore
+DOMAIN-KEYWORD,samsungcloud
 
 
 DOMAIN,vas.samsungapps.com/stub
