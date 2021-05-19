@@ -20,9 +20,9 @@ rename_node=游戏专线@游戏专线转
 
 rename_node=香港 S0@香港特别 0
 rename_node=直连@直连特别
-;rename_node=香港 0@香港特别 0
+rename_node=香港 0@香港特别 0
 ;rename_node=香港 2@香港特别 2
-;rename_node=香港 1@香港特别 1
+rename_node=香港 1@香港特别 1
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
