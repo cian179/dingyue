@@ -165,7 +165,7 @@ custom_proxy_group=♻️ 香港原生`url-test`((港).*(原生))`http://www.gst
 custom_proxy_group=♻️ 台湾原生`url-test`((台|新北|彰化|TW|Taiwan).*(原生))`http://www.gstatic.com/generate_204`156,5,60
 
 custom_proxy_group=✈ 灾备转移`fallback`(`[]✈台湾原生`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈原生转移`[]♻️ 自动选择`[]✈ 特别节点`[]♻️ 备用节点`[]♻️ 专线选择`)`http://www.gstatic.com/generate_204`119,5,299
-custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈原生转移`[]♻️ 台湾原生`[]♻️ 自动选择`[]✈ 特别节点`[]♻️ 备用节点`[]♻️ 专线选择`)`http://www.gstatic.com/generate_204`160,5,170
+custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈原生转移`[]♻️ 台湾原生`[]♻️ 自动选择`[]✈ 特别节点`[]♻️ 备用节点`[]♻️ 专线选择`)`http://www.gstatic.com/generate_204`160,5,270
 
 custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港特别1`[]♻️ 香港特别2`[]♻️ 香港高防选择`[]♻️ 自动选择`[]♻️ 备用节点`http://www.gstatic.com/generate_204`280,5,299
 custom_proxy_group=♻️ 香港特别1`url-test`(^(?!.*?HE).*(特别))`http://www.gstatic.com/generate_204`186,5,70
