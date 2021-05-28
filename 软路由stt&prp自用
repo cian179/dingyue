@@ -1,7 +1,6 @@
 [custom]
 ;cian根据自身网络环境更改 请勿乱用 sst+cord 通用型  混合去广告版
-
-include_remarks=((S-)|(A-)|(B-)|(原生)|(IPLC)|(C-)|(专线+.*[M])|(香港 S[0-2][0-9])|(香港 [0-2][0-9])|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(备用)|(剩余流量)|(GB)|(Em+.*0)|(CLPI))
+include_remarks=((S-)|(A-)|(B-)|(原生)|(IPLC)|(C-)|(专线+.*[M])|(香港 S[0-2][0-9])|(香港 [0-2][0-9])|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(备用)|(剩余流量)|(GB)|(韩)|(CLPI))
 
 rename_node=转@转cc备用
 rename_node=深港专线@深港专线转
@@ -112,40 +111,40 @@ ruleset=🐟 漏网之鱼,[]FINAL
 
 ;设置规则标志位3[0-9][0-9]
 ;设置分组标志位
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]♻️ 备用节点`[]✈ 特别节点`[]✈美国原生`[]♻️ 香港高防选择`[]✈台湾原生`[]♻️ 原生选择`[]✈原生转移`[]♻️ 香港原生`[]♻️ 台湾原生`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]💰 专线节点`[]♻️ 专线选择`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=🚀 手动切换`select`香港 B+.*9+.*原生`.*
-;custom_proxy_group=⏱ SpeedTest`select`[]DIRECT`[]♻️ 备用节点`[]♻️ 自动选择`[]✈台湾原生`[]♻️ 香港高防选择`[]♻️ 原生选择`[]✈原生转移`[]♻️ 香港原生`[]♻️ 台湾原生`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]💰 专线节点`[]♻️ 专线选择`[]🚀 手动切换
+custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]✈ 灾备转移`[]✈ 港备转移`[]♻️ 备用节点`[]✈ 特别节点`[]✈美国原生`[]♻️ 香港高防选择`[]✈台湾原生`[]✈原生转移`[]♻️ 香港原生`[]♻️ 台湾原生`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]💰 专线节点`[]♻️ 专线选择`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🚀 手动切换`select`香港+.*原生`.*
+;custom_proxy_group=⏱ SpeedTest`select`[]DIRECT`[]♻️ 备用节点`[]♻️ 自动选择`[]✈台湾原生`[]♻️ 香港高防选择`[]✈原生转移`[]♻️ 香港原生`[]♻️ 台湾原生`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]💰 专线节点`[]♻️ 专线选择`[]🚀 手动切换
 
-custom_proxy_group=📲 电报消息`select`[]✈ 特别节点`[]♻️ 狮城选择`[]🚀 节点选择`[]♻️ 原生选择`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择`[]♻️ 备用节点
-custom_proxy_group=📽 EMBY`select`[]DIRECT`[]✈ 特别节点`[]✈原生转移`[]♻️ 自动选择`[]♻️ 香港高防选择`[]✈台湾原生`[]♻️ 原生选择`[]🚀 手动切换
+custom_proxy_group=📲 电报消息`select`[]✈ 特别节点`[]✈ 灾备转移`[]✈ 港备转移`[]♻️ 狮城选择`[]🚀 节点选择`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择`[]♻️ 备用节点
+custom_proxy_group=📽 EMBY`select`[]DIRECT`[]✈ 特别节点`[]✈原生转移`[]♻️ 自动选择`[]♻️ 香港高防选择`[]✈台湾原生`[]🚀 手动切换
 custom_proxy_group=🎶 Spotify`select`[]DIRECT`[]🏄‍♂️ 菲律宾节点`[]✈原生转移`[]✈台湾原生`[]🚀 节点选择`[]♻️ 香港原生`[]♻️ 台湾原生`[]🚀 手动切换
-custom_proxy_group=🎥 奈飞视频`select`[]✈原生转移`[]✈ 特别节点`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈台湾原生`[]✈美国原生`[]♻️ 原生选择`[]🎥 奈飞节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择
-custom_proxy_group=🌍 国外媒体`select`[]✈原生转移`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈美国原生`[]✈台湾原生`[]♻️ 原生选择`[]🎥 奈飞节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择
-custom_proxy_group=🖥 HBO`select`[]✈美国原生`[]✈台湾原生`[]✈原生转移`[]♻️ 原生选择`[]🎥 奈飞节点`[]🇺🇲 美国节点`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择
-custom_proxy_group=📱 Samsung`select`[]♻️ 台湾原生`[]✈原生转移`[]✈ 特别节点`[]🚀 节点选择`[]♻️ 香港原生`[]✈台湾原生`[]♻️ 原生选择`[]DIRECT`[]♻️ 香港高防选择`[]🚀 手动切换`[]🇰🇷 韩国节点
-custom_proxy_group=📢 谷歌`select`[]♻️ 台湾原生`[]✈ 特别节点`[]♻️ 香港原生`[]✈原生转移`[]✈台湾原生`[]♻️ 原生选择`[]DIRECT`[]🚀 节点选择`[]♻️ 香港高防选择`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
-custom_proxy_group=💨 耗费流量`select`[]✈ 特别节点`[]♻️ 原生选择`[]🚀 节点选择`[]DIRECT
-custom_proxy_group=🥂 社交媒体`select`[]✈台湾原生`[]✈ 特别节点`[]♻️ 香港原生`[]✈原生转移`[]♻️ 原生选择`[]✈美国原生`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择
-custom_proxy_group=Ⓜ️ 微软云盘`select`[]✈ 特别节点`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT`[]♻️ 香港高防选择`[]♻️ 原生选择`[]✈原生转移`[]♻️ 台湾原生`[]🚀 手动切换
+custom_proxy_group=🎥 奈飞视频`select`[]✈原生转移`[]✈ 特别节点`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈台湾原生`[]✈美国原生`[]🎥 奈飞节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择
+custom_proxy_group=🌍 国外媒体`select`[]✈原生转移`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈美国原生`[]✈台湾原生`[]🎥 奈飞节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择
+custom_proxy_group=🖥 HBO`select`[]✈美国原生`[]✈台湾原生`[]✈原生转移`[]🎥 奈飞节点`[]🇺🇲 美国节点`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择
+custom_proxy_group=📱 Samsung`select`[]✈ 港备转移`[]✈ 灾备转移`[]♻️ 台湾原生`[]✈原生转移`[]✈ 特别节点`[]🚀 节点选择`[]♻️ 香港原生`[]✈台湾原生`[]DIRECT`[]🚀 手动切换`[]🇰🇷 韩国节点
+custom_proxy_group=📢 谷歌`select`[]✈ 灾备转移`[]✈ 港备转移`[]♻️ 台湾原生`[]✈ 特别节点`[]♻️ 香港原生`[]✈原生转移`[]✈台湾原生`[]DIRECT`[]🚀 节点选择`[]♻️ 香港高防选择`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
+custom_proxy_group=💨 耗费流量`select`[]✈ 特别节点`[]🚀 节点选择`[]DIRECT
+custom_proxy_group=🥂 社交媒体`select`[]✈ 灾备转移`[]✈ 港备转移`[]✈台湾原生`[]♻️ 香港原生`[]✈原生转移`[]✈美国原生`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT`[]💰 专线节点`[]♻️ 专线选择
+custom_proxy_group=Ⓜ️ 微软云盘`select`[]✈ 特别节点`[]✈ 港备转移`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT`[]♻️ 香港高防选择`[]✈原生转移`[]♻️ 台湾原生`[]🚀 手动切换
 custom_proxy_group=Ⓜ️ 微软商盘`select`[]DIRECT`[]✈ 特别节点`[]🚀 节点选择`[]♻️ 香港高防选择
-custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]✈ 特别节点`[]♻️ 香港高防选择`[]♻️ 香港原生`[]♻️ 原生选择`[]✈原生转移`[]🚀 节点选择`[]♻️ 台湾原生`[]🚀 手动切换
-custom_proxy_group=🛍 海购AmPPeB`select`[]✈原生转移`[]✈美国原生`[]✈台湾原生`[]♻️ 香港原生`[]DIRECT`[]♻️ 原生选择`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择`[]🏄‍♂️ 菲律宾节点
+custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]✈ 特别节点`[]♻️ 香港高防选择`[]♻️ 香港原生`[]✈原生转移`[]🚀 节点选择`[]♻️ 台湾原生`[]🚀 手动切换
+custom_proxy_group=🛍 海购AmPPeB`select`[]✈原生转移`[]✈美国原生`[]✈台湾原生`[]♻️ 香港原生`[]DIRECT`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择`[]🏄‍♂️ 菲律宾节点
 custom_proxy_group=🇵🇭 Globe`select`[]🏄‍♂️ 菲律宾节点`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]✈美国原生`[]✈台湾原生`[]♻️ 香港原生
 
-custom_proxy_group=🗃 群晖`select`[]DIRECT`[]✈ 特别节点`[]♻️ 香港高防选择`[]♻️ 香港原生`[]♻️ 原生选择`[]✈原生转移`[]🚀 节点选择
-custom_proxy_group=📥 BTweb`select`[]✈ 特别节点`[]🚀 节点选择`[]♻️ 原生选择`[]DIRECT`[]✈美国原生`[]✈台湾原生`[]♻️ 香港高防选择`[]✈原生转移`[]🚀 手动切换
+custom_proxy_group=🗃 群晖`select`[]DIRECT`[]✈ 特别节点`[]♻️ 香港高防选择`[]♻️ 香港原生`[]✈原生转移`[]🚀 节点选择
+custom_proxy_group=📥 BTweb`select`[]✈ 特别节点`[]🚀 节点选择`[]DIRECT`[]✈美国原生`[]✈台湾原生`[]♻️ 香港高防选择`[]✈原生转移`[]🚀 手动切换
 
-custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]♻️ 香港原生`[]✈原生转移`[]♻️ 香港高防选择`[]🚀 节点选择`[]♻️ 原生选择`[]✈ 俄国转移`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
-custom_proxy_group=🎮 Steam平台`select`[]♻️ 香港原生`[]✈原生转移`[]♻️ 香港高防选择`[]DIRECT`[]🚀 节点选择`[]♻️ 原生选择`[]✈ 俄国转移`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
-custom_proxy_group=🎮 CNSteam`select`[]DIRECT`[]♻️ 香港高防选择`[]♻️ 香港原生`[]🚀 节点选择`[]♻️ 原生选择`[]✈原生转移`[]✈ 俄国转移`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
+custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]♻️ 香港原生`[]✈原生转移`[]♻️ 香港高防选择`[]🚀 节点选择`[]✈ 俄国转移`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
+custom_proxy_group=🎮 Steam平台`select`[]♻️ 香港原生`[]✈原生转移`[]♻️ 香港高防选择`[]DIRECT`[]🚀 节点选择`[]✈ 俄国转移`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
+custom_proxy_group=🎮 CNSteam`select`[]DIRECT`[]♻️ 香港高防选择`[]♻️ 香港原生`[]🚀 节点选择`[]✈原生转移`[]✈ 俄国转移`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
 
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🚀 手动切换
 custom_proxy_group=📺 哔哩哔哩`select`[]DIRECT`[]🎯 全球直连`[]✈台湾原生`[]✈原生转移`[]🚀 节点选择
-custom_proxy_group=📺 巴哈姆特`select`[]✈台湾原生`[]♻️ 台湾原生`[]DIRECT`[]🇨🇳 台湾节点`[]💰 专线节点`[]♻️ 专线选择`[]🚀 手动切换
-custom_proxy_group=🩺 ESET`select`[]DIRECT`[]🚀 节点选择`[]♻️ 原生选择`[]✈原生转移`[]✈ 特别节点
-custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]♻️ 原生选择`[]✈原生转移
-custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]✈ 特别节点`[]♻️ 自动选择`[]♻️ 原生选择`[]✈原生转移`[]DIRECT`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
-;custom_proxy_group=🍎 Apple`select`[]🚀 节点选择`[]✈ 特别节点`[]✈原生转移`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈台湾原生`[]✈美国原生`[]♻️ 原生选择
+custom_proxy_group=📺 巴哈姆特`select`[]✈ 灾备转移`[]✈台湾原生`[]♻️ 台湾原生`[]DIRECT`[]🇨🇳 台湾节点`[]💰 专线节点`[]♻️ 专线选择`[]🚀 手动切换
+custom_proxy_group=🩺 ESET`select`[]DIRECT`[]🚀 节点选择`[]✈原生转移`[]✈ 特别节点
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]✈原生转移
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]✈ 特别节点`[]♻️ 自动选择`[]✈原生转移`[]DIRECT`[]🚀 手动切换`[]💰 专线节点`[]♻️ 专线选择
+;custom_proxy_group=🍎 Apple`select`[]🚀 节点选择`[]✈ 特别节点`[]✈原生转移`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈台湾原生`[]✈美国原生
 
 custom_proxy_group=🇭🇰 香港节点`select`(港|HK|Hong Kong)
 custom_proxy_group=🇯🇵 日本节点`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
@@ -162,11 +161,14 @@ custom_proxy_group=✈原生转移`fallback`(`香港 B+.*9+.*原生`香港 C+.*3
 custom_proxy_group=✈ 俄国转移`fallback`(`((俄).*(S).*(原生))`((俄).*(S))`((俄).*(M))`(俄|俄羅斯|RUS)`)http://www.gstatic.com/generate_204`300,5,100
 custom_proxy_group=✈美国原生`fallback`(`((美).*(4).*(原生))`((美).*(5).*(原生))`((美).*(3).*(原生))`((美).*(原生))`)`http://www.gstatic.com/generate_204`300,5,100
 custom_proxy_group=✈台湾原生`fallback`(`((台).*(A).*(03).*(原生))`((台).*(02).*(原生))`((台).*(原生))`)`http://www.gstatic.com/generate_204`160,5,70
-custom_proxy_group=♻️ 原生选择`url-test`(((香港).*(原生))|((台湾).*(原生))|((新).*(原生)))`http://www.gstatic.com/generate_204`240,5,60
+;custom_proxy_group=♻️ 原生选择`url-test`(((香港).*(原生))|((台湾).*(原生)))`http://www.gstatic.com/generate_204`240,5,60
 custom_proxy_group=♻️ 香港原生`url-test`((港).*(原生))`http://www.gstatic.com/generate_204`233,5,50
 custom_proxy_group=♻️ 台湾原生`url-test`((台|新北|彰化|TW|Taiwan).*(原生))`http://www.gstatic.com/generate_204`156,5,60
 
-custom_proxy_group=✈ 特别节点`fallback`直连+.*香港+.*6`[]♻️ 香港特别1`[]♻️ 香港特别2`[]♻️ 香港高防选择`[]♻️ 自动选择`http://www.gstatic.com/generate_204`280,5,299
+custom_proxy_group=✈ 灾备转移`fallback`(`[]✈台湾原生`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈原生转移`[]♻️ 自动选择`[]✈ 特别节点`[]♻️ 备用节点`[]♻️ 专线选择`)`http://www.gstatic.com/generate_204`119,5,299
+custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈原生转移`[]♻️ 台湾原生`[]♻️ 自动选择`[]✈ 特别节点`[]♻️ 备用节点`[]♻️ 专线选择`)`http://www.gstatic.com/generate_204`160,5,270
+
+custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港特别1`[]♻️ 香港特别2`[]♻️ 香港高防选择`[]♻️ 自动选择`[]♻️ 备用节点`http://www.gstatic.com/generate_204`280,5,299
 custom_proxy_group=♻️ 香港特别1`url-test`(^(?!.*?HE).*(特别))`http://www.gstatic.com/generate_204`186,5,70
 custom_proxy_group=♻️ 香港特别2`url-test`(特别+.*HE)`http://www.gstatic.com/generate_204`196,5,70
 
@@ -175,8 +177,9 @@ custom_proxy_group=♻️ 香港高防选择`url-test`(香港+.*stt+.*NF)`http:/
 
 ;custom_proxy_group=♻️ EB选择`url-test`((Em).*(0))`http://www.gstatic.com/generate_204`300,5,50
 custom_proxy_group=♻️ 狮城选择`url-test`(^(?!.*?转).*(新加坡|新|坡|狮城|SG|Singapore))`http://www.gstatic.com/generate_204`233,5,50
-custom_proxy_group=♻️ 专线选择`url-test`(IEP|IPLC|游戏|AIA|专线)`http://www.gstatic.com/generate_204`300,5,50
+custom_proxy_group=♻️ 专线选择`url-test`(^(?!.*?IPLC).*(专线))`http://www.gstatic.com/generate_204`300,5,50
 custom_proxy_group=♻️ 备用节点`url-test`(^(?!.*?专线).*(备用))`http://www.gstatic.com/generate_204`300,5,70
+
 
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
