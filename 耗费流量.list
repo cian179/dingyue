@@ -1,9 +1,9 @@
 ## 不要求节点质量
 
 #DOMAIN-SUFFIX,
-#DOMAIN,
+DOMAIN,photos.google.com
 #DOMAIN-KEYWORD,
-#DOMAIN-SUFFIX,googlephotos.com
+DOMAIN-SUFFIX,googlephotos.com
 #DOMAIN-SUFFIX,googledrive.com
 
 DOMAIN-SUFFIX,googleapis.com
