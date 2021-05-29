@@ -1,22 +1,20 @@
 #myself 代理修补
-#DOMAIN,onedrive.live.com
-#DOMAIN-SUFFIX,pypy666.me
-#DOMAIN,prprcloud.com
+
 DOMAIN-SUFFIX,steamxo.com
 DOMAIN,v2raytech.com
-#DOMAIN,sub.pypy666.me
+
 #DOMAIN,suc.pypy666.me
 #DOMAIN,sttcloud.net
 DOMAIN-KEYWORD,kaiju09
 #DOMAIN-KEYWORD,sttcloud
 #DOMAIN-KEYWORD,cordcloud
-DOMAIN-KEYWORD,fitgirlrepacks
-DOMAIN-KEYWORD,docker
+#DOMAIN-KEYWORD,fitgirlrepacks
+#DOMAIN-KEYWORD,docker
 DOMAIN,p3terx.com
-DOMAIN-KEYWORD,unwire
+#DOMAIN-KEYWORD,unwire
 DOMAIN-SUFFIX,v2ex.com
-DOMAIN-KEYWORD,fuman8
-DOMAIN-KEYWORD,fumanhua
+#DOMAIN-KEYWORD,fuman8
+#DOMAIN-KEYWORD,fumanhua
 
 DOMAIN-KEYWORD,nytimes
 DOMAIN-SUFFIX,nytimes.com
@@ -43,11 +41,11 @@ DOMAIN-KEYWORD,evernote
 DOMAIN-KEYWORD,yinxiang
 DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,yinxiang.com
-DOMAIN-SUFFIX,cloudflare.com
+#DOMAIN-SUFFIX,cloudflare.com
 
 DOMAIN,xn--wck3bl6f2a2hb.xn--p8jr2b2a2b5gvc4ed.com
 #signal
-DOMAIN-KEYWORD,signal
+DOMAIN-SUFFIX,signal.com
 DOMAIN,signal.org 
 DOMAIN,textsecure-service.whispersystems.org
 
