@@ -155,7 +155,7 @@ custom_proxy_group=♻️ 自动选择`url-test`((A-)|(B-)|(C-))`http://www.gsta
 custom_proxy_group=✈ 台备转移`fallback`(`[]♻️ 台湾原生`[]✈台湾原生`台湾特别`[]♻️ 台备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`)`http://www.gstatic.com/generate_204`119,5,159
 custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港原生`[]♻️ 香港特别1`[]♻️ 香港A高防`[]♻️ 港备用`直连特别`[]♻️ 专线选择`[]♻️ 自动选择`)`http://www.gstatic.com/generate_204`109,5,170
 custom_proxy_group=✈ 狮备转移`fallback`(`[]♻️ 狮城原生`[]♻️ 狮城选择`[]♻️ 日本高防`[]♻️ 香港A高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`)`http://www.gstatic.com/generate_204`129,5,170
-custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港混合`[]♻️ 香港特别1`[]♻️ 香港A高防`直连特别`[]♻️ 香港原生`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`180,5,299
+custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港特别1`[]♻️ 香港混合`[]♻️ 香港A高防`直连特别`[]♻️ 香港原生`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`180,5,299
 custom_proxy_group=✈ 特别节点2`fallback`直连特别`[]♻️ 香港特别2`[]♻️ 香港特别1`[]♻️ 香港A高防`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`http://www.gstatic.com/generate_204`280,5,299
 
 custom_proxy_group=✈ 俄国转移`fallback`(`((俄).*(S).*(原生))`((俄).*(S))`((俄).*(M))`(俄|俄羅斯|RUS)`)http://www.gstatic.com/generate_204`300,5,100
