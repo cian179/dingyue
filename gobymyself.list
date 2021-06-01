@@ -3,20 +3,13 @@
 DOMAIN-SUFFIX,steamxo.com
 DOMAIN,v2raytech.com
 
-#DOMAIN,suc.pypy666.me
-#DOMAIN,sttcloud.net
 DOMAIN-KEYWORD,kaiju09
-#DOMAIN-KEYWORD,sttcloud
-#DOMAIN-KEYWORD,cordcloud
-#DOMAIN-KEYWORD,fitgirlrepacks
-#DOMAIN-KEYWORD,docker
 DOMAIN,p3terx.com
 #DOMAIN-KEYWORD,unwire
 DOMAIN-SUFFIX,v2ex.com
 #DOMAIN-KEYWORD,fuman8
 #DOMAIN-KEYWORD,fumanhua
 
-DOMAIN-KEYWORD,nytimes
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,opensubtitles.org
 DOMAIN-KEYWORD,opensubtitles
@@ -31,10 +24,8 @@ DOMAIN,apk.center
 DOMAIN,www.sto.cx
 DOMAIN,yigeplus.xyz
 
-#DOMAIN-KEYWORD,eset
 
 
-#IP-CIDR,34.80.178.3/24,no-resolve
 
 DOMAIN-KEYWORD,evernote
 DOMAIN-KEYWORD,yinxiang
