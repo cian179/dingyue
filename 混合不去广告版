@@ -178,10 +178,10 @@ custom_proxy_group=🏄‍♂️ 菲律宾节点`url-test`(菲|马尼拉|Philipp
 
 custom_proxy_group=♻️ 香港原生`url-test`((港).*(原生))`http://www.gstatic.com/generate_204`233,5,50
 custom_proxy_group=♻️ 台湾原生`url-test`((台|新北|彰化|TW|Taiwan).*(原生))`http://www.gstatic.com/generate_204`176,5,70
-custom_proxy_group=♻️ 狮城原生`url-test`((新加坡|新|坡|狮城|SG|Singapore).*(原生))`http://www.gstatic.com/generate_204`216,5,50
+custom_proxy_group=♻️ 狮城原生`url-test`((新加坡|狮城|SG|Singapore).*(原生))`http://www.gstatic.com/generate_204`216,5,50
 custom_proxy_group=✈台湾原生`fallback`(`((台).*(A).*(04).*(原生))`((台).*(A).*(01).*(原生))`((台).*(B).*(02).*(原生))`((台).*(原生))`)`http://www.gstatic.com/generate_204`166,5,70
 custom_proxy_group=✈香港原生`fallback`(`((港).*(C).*(04).*(原生))`((港).*(C).*(原生))`((港).*(B).*(09).*(原生))`((港).*(原生))`)`http://www.gstatic.com/generate_204`152,5,70
-custom_proxy_group=♻️ 狮城选择`url-test`(^(?!.*?原生).*(新加坡|新|坡|狮城|SG|Singapore))`http://www.gstatic.com/generate_204`233,5,50
+custom_proxy_group=♻️ 狮城选择`url-test`(^(?!.*?原生).*(新加坡|狮城|SG|Singapore))`http://www.gstatic.com/generate_204`233,5,50
 
 custom_proxy_group=♻️ 专线选择`url-test`(^(?!.*?IPLC).*(专线).*(港))`http://www.gstatic.com/generate_204`300,5,50
 custom_proxy_group=♻️ 备用节点`fallback`[]♻️ 港备用`[]♻️ 台备用`http://www.gstatic.com/generate_204`333,5,70
