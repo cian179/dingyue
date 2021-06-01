@@ -2,5 +2,5 @@
 
 DOMAIN-SUFFIX,globe.com.ph
 DOMAIN-SUFFIX,gcash.com
-DOMAIN-KEYWORD,globe
-DOMAIN-KEYWORD,gcash
+#DOMAIN-KEYWORD,globe
+#DOMAIN-KEYWORD,gcash
