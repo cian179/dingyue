@@ -75,7 +75,8 @@ ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth.list
 ruleset=📢 谷歌,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=📢 谷歌,[]DOMAIN-SUFFIX,services.googleapis.cn
-ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
+ruleset=💻 Github,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
+ruleset=💻 Github,https://raw.githubusercontent.com/LM-Firefly/Rules/1e4dec63372ae6ca7d3687a3bd565858f68d18d9/PROXY/Github.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitbook.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
@@ -131,7 +132,7 @@ custom_proxy_group=Ⓜ️ 微软商盘`select`[]DIRECT`[]✈ 特别节点`[]✈ 
 custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]✈ 特别节点`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
 custom_proxy_group=🛍 海购AmPPeB`select`[]✈ 港备转移`[]✈台湾原生`[]✈ 特别节点`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 custom_proxy_group=🇵🇭 Globe`select`[]🏄‍♂️ 菲律宾节点`[]DIRECT`[]✈ 港备转移`[]✈ 特别节点`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
-
+custom_proxy_group=💻 Github`select`[]✈ 美备转移`[]✈ 台备转移`[]✈ 狮备转移`[]✈ 特别节点`[]✈ 港备转移`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🗃 群晖`select`[]DIRECT`[]✈ 特别节点`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
 custom_proxy_group=📥 BTweb`select`[]✈ 特别节点`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 
