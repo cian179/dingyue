@@ -33,7 +33,7 @@ DOMAIN,cf-dn.gw.samsungapps.com
 DOMAIN,cdnet-dn.gw.samsungapps.com
 DOMAIN,apps-dn2.ospserver.net
 DOMAIN,samsappsbn.vo.llnwd.net
-DOMAIN,samsappsbn.vo.llnwd.net
+
 
 DOMAIN,crl3.digicert.com
 
@@ -49,3 +49,4 @@ DOMAIN,webstore.samqaicongen.com
 DOMAIN,api.samsungosp.com
 
 DOMAIN,inst.platform.bing.com
+
