@@ -5,7 +5,7 @@
 
 ;exclude_remarks=(NF*(US))|([0-9]02+.*Pr)(A).*(B)    节点名既有 A又有 B (A)|(B)   (香港 [0-3][0-9]+.*NF)|  节点名有 A 或者 B  ^((?!A).)*$     节点名不含有 A (?!.*(A)).*(B)  节点名不含有 A，同时含有 B
 
-include_remarks=(( S-)|( A-)|( B-)|(原生)|(IPLC)|( C-)|(专线+.*港+.*[M])|(香港 S[0-2][0-9])|(香港 [0-2][0-9])|(台湾 [0-2][0-9])|(新加坡 [0-2][0-9])|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(备用)|(剩余流量)|(GB)|(CLPI))
+include_remarks=(( S-)|( A-)|( B-)|(原生)|(IPLC)|( C-)|(专线+.*港+.*[M])|(香港 S[0-2][0-9])|(香港 [0-2][0-9])|(台湾 [0-2][0-9])|(新加坡 [0-2][0-9])|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(CLPI))
 
 rename_node=转@转cc备用
 rename_node=深港专线@深港专线转
@@ -55,7 +55,7 @@ ruleset=🥂 社交媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Line.list
 ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LineTV.list
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/43eac837ed6a6ade2f861c85f529656cfb054910/PROXY/Naver.list
-ruleset=🗃 群晖,https://raw.githubusercontent.com/cian179/dingyue/main/Synology
+
 ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO.list
 ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO_GO_HKG.list
 ruleset=🖥 HBO,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list
@@ -77,7 +77,7 @@ ruleset=📢 谷歌,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=📢 谷歌,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=💻 Github,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
 ruleset=💻 Github,https://raw.githubusercontent.com/LM-Firefly/Rules/1e4dec63372ae6ca7d3687a3bd565858f68d18d9/PROXY/Github.list
-ruleset=📢 谷歌,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitbook.list
+ruleset=💻 Github,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitbook.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list
@@ -101,6 +101,7 @@ ruleset=🎮 游戏平台,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/cian179/dingyue/main/game.list
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/master/GlobalMedia.list
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BrightCove.list
+ruleset=🗃 群晖,https://raw.githubusercontent.com/cian179/dingyue/main/Synology
 ;ruleset=⏱ SpeedTest,https://raw.githubusercontent.com/LM-Firefly/Rules/master/SpeedTest.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list
 ruleset=🩺 ESET,https://raw.githubusercontent.com/cian179/dingyue/main/nordon.list
