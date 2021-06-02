@@ -70,7 +70,7 @@ ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 
 ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Samsung.list
 
-ruleset=🇵🇭 Globe,https://raw.githubusercontent.com/cian179/dingyue/main/Globe.list
+
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth.list
 ruleset=📢 谷歌,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
@@ -104,6 +104,7 @@ ruleset=🌍 国外媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ;ruleset=⏱ SpeedTest,https://raw.githubusercontent.com/LM-Firefly/Rules/master/SpeedTest.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list
 ruleset=🩺 ESET,https://raw.githubusercontent.com/cian179/dingyue/main/nordon.list
+ruleset=🇵🇭 Globe,https://raw.githubusercontent.com/cian179/dingyue/main/Globe.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
