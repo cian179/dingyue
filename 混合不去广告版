@@ -105,12 +105,13 @@ ruleset=🌍 国外媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list
-ruleset=🩺 ESET,https://raw.githubusercontent.com/cian179/dingyue/main/eset.list
+;ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list
+;ruleset=🩺 ESET,
 ruleset=📽 EMBY,https://raw.githubusercontent.com/cian179/dingyue/main/emby.list
 ;ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,[]GEOIP,CN
+ruleset=🩺 ESET,https://raw.githubusercontent.com/cian179/dingyue/main/eset.list
 ruleset=🐟 漏网之鱼,[]FINAL
 
 ;设置规则标志位3[0-9][0-9]
