@@ -164,7 +164,8 @@ custom_proxy_group=♻️ 狮城原生`url-test`((新加坡|狮城|SG|Singapore)
 custom_proxy_group=♻️ 美国节点`url-test`((美).*(4).*(原生))`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`219,5,50
 custom_proxy_group=♻️ 狮城选择`url-test`(^(?!.*?原生).*(新加坡|狮城|SG|Singapore))`http://www.gstatic.com/generate_204`233,5,50
 
-custom_proxy_group=♻️ 香港特别1`url-test`((香港特别).*(AWS))`直连特别`http://www.gstatic.com/generate_204`186,5,50
+
+custom_proxy_group=♻️ 香港特别1`url-test`((香港特别).*(AWS))`http://www.gstatic.com/generate_204`186,5,50
 custom_proxy_group=♻️ 香港特别2`url-test`(香港特别+.*HE)`http://www.gstatic.com/generate_204`286,5,50
 
 custom_proxy_group=♻️ 香港A高防`url-test`(香港+.*A+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
