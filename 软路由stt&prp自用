@@ -91,7 +91,7 @@ ruleset=🚀 节点选择,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=Ⓜ️ 微软商盘,https://raw.githubusercontent.com/cian179/dingyue/main/onedrivebissuness.list
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/cian179/dingyue/main/onedrive.list
-ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+ruleset=Ⓜ️ 微软服务1,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 
 ruleset=🛍 海购AmPPeB,https://raw.githubusercontent.com/cian179/dingyue/main/PayPal.list
 ruleset=🛍 海购AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/79f4b4ce87cf9f43d6293ad4271cf344de9891c4/PROXY/eBay.list
@@ -108,7 +108,7 @@ ruleset=🌍 国外媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=🗃 群晖,https://raw.githubusercontent.com/cian179/dingyue/main/Synology
 ;ruleset=⏱ SpeedTest,https://raw.githubusercontent.com/LM-Firefly/Rules/master/SpeedTest.list
 ruleset=🩺 ESET,https://raw.githubusercontent.com/cian179/dingyue/main/nordon.list
-ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list
+ruleset=Ⓜ️ 微软服务2,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list
 ruleset=🇵🇭 Globe,https://raw.githubusercontent.com/cian179/dingyue/main/Globe.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
@@ -138,7 +138,9 @@ custom_proxy_group=💨 耗费流量`select`[]✈ 特别节点`[]✈ 港备转�
 custom_proxy_group=🥂 社交媒体`select`[]✈ 台备转移`[]✈台湾原生`[]✈ 港备转移`[]✈ 特别节点`[]✈ 狮备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 custom_proxy_group=Ⓜ️ 微软云盘`select`[]✈ 特别节点`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 custom_proxy_group=Ⓜ️ 微软商盘`select`[]DIRECT`[]✈ 特别节点`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
-custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]✈ 特别节点`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
+custom_proxy_group=Ⓜ️ 微软服务1`select`[]DIRECT`[]✈ 特别节点`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
+custom_proxy_group=Ⓜ️ 微软服务2`select`[]DIRECT`[]✈ 特别节点`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
+
 custom_proxy_group=🛍 海购AmPPeB`select`[]✈ 港备转移`[]✈台湾原生`[]✈ 特别节点`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 custom_proxy_group=🇵🇭 Globe`select`[]🏄‍♂️ 菲律宾节点`[]DIRECT`[]✈ 港备转移`[]✈ 特别节点`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
 custom_proxy_group=💻 Github`select`[]✈ 美备转移`[]✈ 台备转移`[]✈ 狮备转移`[]✈ 特别节点`[]✈ 港备转移`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
@@ -193,6 +195,7 @@ custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港
 custom_proxy_group=✈ 狮备转移`fallback`(`[]♻️ 狮城原生`[]♻️ 狮城选择`[]♻️ 日本高防`[]♻️ 香港A高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`)`http://www.gstatic.com/generate_204`129,5,170
 custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港特别1`[]♻️ 直连特别`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`156,5,299
 custom_proxy_group=✈ 美备转移`fallback`(`[]♻️ 美国节点`[]✈美国原生`[]✈ 台备转移`)`http://www.gstatic.com/generate_204`139,5,159
+
 
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
