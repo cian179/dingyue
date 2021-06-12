@@ -28,7 +28,7 @@ rename_node=香港 1@香港特别 1
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/cian179/dingyue/main/gobymyself.list
+
 ruleset=📥 BTweb,https://raw.githubusercontent.com/cian179/dingyue/main/btdown.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main/justgo.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
@@ -46,7 +46,7 @@ ruleset=💨 耗费流量,https://raw.githubusercontent.com/cian179/dingyue/main
 ruleset=📢 谷歌,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list
 ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list
-
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/cian179/dingyue/main/gobymyself.list
 
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Facebook.list
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list
