@@ -3,26 +3,14 @@
 DOMAIN-SUFFIX,steamxo.com
 DOMAIN,v2raytech.com
 
-DOMAIN-KEYWORD,kaiju09
+
 DOMAIN,p3terx.com
 #DOMAIN-KEYWORD,unwire
 DOMAIN-SUFFIX,v2ex.com
 #DOMAIN-KEYWORD,fuman8
 #DOMAIN-KEYWORD,fumanhua
 
-DOMAIN-SUFFIX,nytimes.com
-DOMAIN-SUFFIX,opensubtitles.org
-DOMAIN-KEYWORD,opensubtitles
-DOMAIN-KEYWORD,isubtitles
-DOMAIN-KEYWORD,subscene
-DOMAIN-KEYWORD,addic7ed
-DOMAIN-KEYWORD,subtitleshub
-DOMAIN-KEYWORD,tvsubtitles
-DOMAIN-KEYWORD,yifysubtitles
-#DOMAIN-KEYWORD,subhd
-DOMAIN,apk.center
-DOMAIN,www.sto.cx
-DOMAIN,yigeplus.xyz
+
 
 
 
@@ -31,9 +19,7 @@ DOMAIN-KEYWORD,evernote
 DOMAIN-KEYWORD,yinxiang
 DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,yinxiang.com
-#DOMAIN-SUFFIX,cloudflare.com
 
-DOMAIN,xn--wck3bl6f2a2hb.xn--p8jr2b2a2b5gvc4ed.com
 #signal
 DOMAIN-SUFFIX,signal.com
 DOMAIN,signal.org 
