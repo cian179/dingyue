@@ -90,6 +90,7 @@ ruleset=Ⓜ️ 微软商盘,https://raw.githubusercontent.com/cian179/dingyue/ma
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/cian179/dingyue/main/onedrive.list
 ruleset=Ⓜ️ 微软基础,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+ruleset=Ⓜ️ 微软基础,https://raw.githubusercontent.com/cian179/dingyue/main/Microsoft2.list
 
 ruleset=🛍 海购AmPPeB,https://raw.githubusercontent.com/cian179/dingyue/main/PayPal.list
 ruleset=🛍 海购AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/79f4b4ce87cf9f43d6293ad4271cf344de9891c4/PROXY/eBay.list
