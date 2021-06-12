@@ -113,9 +113,11 @@ ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ;ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list
 ruleset=📽 EMBY,https://raw.githubusercontent.com/cian179/dingyue/main/emby.list
+
 ;ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 
 ruleset=🎯 全球直连,[]GEOIP,CN
+ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Samsung2.list
 ruleset=🩺 ESET,https://raw.githubusercontent.com/cian179/dingyue/main/eset.list
 ruleset=🐟 漏网之鱼,[]FINAL
 
