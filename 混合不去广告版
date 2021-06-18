@@ -39,6 +39,13 @@ ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Sams
 ruleset=📱 Samsung,https://raw.githubusercontent.com/LM-Firefly/Rules/43eac837ed6a6ade2f861c85f529656cfb054910/PROXY/Samsung.list
 ruleset=📹 油管视频,https://raw.githubusercontent.com/cian179/dingyue/main/Youtube.list
 ruleset=💨 耗费流量,https://raw.githubusercontent.com/cian179/dingyue/main/%E8%80%97%E8%B4%B9%E6%B5%81%E9%87%8F.list
+
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+;ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list
+ruleset=🎮 CNSteam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list
 ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list
@@ -94,7 +101,7 @@ ruleset=🛍 海购AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/79f
 ruleset=🛍 海购AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bestbuy.list
 ruleset=🛍 海购AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/80dc7e5e77b6416a0f577b5c3515a67c7779018b/PROXY/Shopee.list
 
-ruleset=🎮 CNSteam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+
 ruleset=🎮 Steam平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/cian179/dingyue/main/game.list
@@ -107,11 +114,7 @@ ruleset=Ⓜ️ 微软其他,https://raw.githubusercontent.com/LM-Firefly/Rules/m
 ruleset=🇵🇭 Globe,https://raw.githubusercontent.com/cian179/dingyue/main/Globe.list
 ruleset=📥 BTweb,https://raw.githubusercontent.com/cian179/dingyue/main/btdown.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-;ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list
+
 ruleset=📽 EMBY,https://raw.githubusercontent.com/cian179/dingyue/main/emby.list
 
 
