@@ -40,9 +40,9 @@ ruleset=📱 Samsung,https://raw.githubusercontent.com/LM-Firefly/Rules/43eac837
 ruleset=📹 油管视频,https://raw.githubusercontent.com/cian179/dingyue/main/Youtube.list
 ruleset=💨 耗费流量,https://raw.githubusercontent.com/cian179/dingyue/main/%E8%80%97%E8%B4%B9%E6%B5%81%E9%87%8F.list
 
+ruleset=🎮 CNSteam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
-ruleset=🎮 CNSteam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 
 
