@@ -88,6 +88,7 @@ dns:
      #- tls://1.0.0.1:853
      #- tls://dns.google:853
      - https://1.1.1.1/dns-query
+     - https://dns.nextdns.io/4ba241
      #- https://cloudflare-dns.com/dns-query
      #- https://dns.google/dns-query
   fallback-filter:
