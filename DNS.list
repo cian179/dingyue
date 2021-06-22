@@ -12,7 +12,7 @@ DOMAIN,8888.google
 DOMAIN,dns.google
 DOMAIN,dns.google.com
 DOMAIN,dns.quad9.net
-
+DOMAIN,dns.nextdns.io
 ## > DNS CIDR
 IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
