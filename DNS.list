@@ -1,0 +1,22 @@
+## 🥥 DNS
+## > DNS
+DOMAIN,1dot1dot1dot1.cloudflare-dns.com
+DOMAIN,chrome.cloudflare-dns.com
+DOMAIN,cloudflare-dns.com
+DOMAIN,dns.cloudflare.com
+DOMAIN,family.cloudflare-dns.com
+DOMAIN,mozilla.cloudflare-dns.com
+DOMAIN,one.one.one.one
+DOMAIN,security.cloudflare-dns.com
+DOMAIN,8888.google
+DOMAIN,dns.google
+DOMAIN,dns.google.com
+DOMAIN,dns.quad9.net
+
+## > DNS CIDR
+IP-CIDR,1.1.1.1/32,no-resolve
+IP-CIDR,8.8.4.4/32,no-resolve
+IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,9.9.9.9/32,no-resolve
+IP-CIDR,185.222.222.222/32,no-resolve
+
