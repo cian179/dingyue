@@ -1,11 +1,11 @@
-#just go 直连列表  DOMAIN-KEYWORD,bitdefender
+#just go 直连列表  
 DOMAIN,down2.okdown10.com
 DOMAIN,xiazai.vpszuida.com
 DOMAIN-SUFFIX,cian.studio
 DOMAIN-KEYWORD,ciancn
 DOMAIN-KEYWORD,ticktick
 DOMAIN-KEYWORD,dida365
-DOMAIN-KEYWORD,1password
+#DOMAIN-KEYWORD,1password
 DOMAIN,emby.cian.studio
 #机场审计
 DOMAIN-KEYWORD,dafahao
