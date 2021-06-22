@@ -28,7 +28,7 @@ IP-CIDR,176.9.62.58/32,no-resolve
 IP-CIDR,185.184.222.222/32,no-resolve
 IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,213.239.207.143/32,no-resolve
-
+IP-CIDR,94.140.14.141/32,no-resolve
 DOMAIN,adblock.mydns.network
 DOMAIN,applied-privacy.net
 DOMAIN,captnemo.in
