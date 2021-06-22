@@ -33,7 +33,7 @@ ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list
 
-ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/cian179/dingyue/main/DNS2.list
+ruleset=✈ 特别节点,https://raw.githubusercontent.com/cian179/dingyue/main/DNS2.list
 ruleset=🥥 DNS,https://raw.githubusercontent.com/cian179/dingyue/main/DNS.list
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 ruleset=🎶 Spotify,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list
