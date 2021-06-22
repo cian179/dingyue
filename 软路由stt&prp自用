@@ -3,7 +3,7 @@
 
 
 
-include_remarks=(( S-)|( A-)|( B-)|(原生)|(IPLC)|( C-)|(专线+.*港+.*[M])|(香港 [0-2][0-9]+.*AWS)|(直连+.*香港 [0-2][0-9])|(台湾 [0-2][0-9])|(新加坡 [0-2][0-9])|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(CLPI))
+include_remarks=(( S-)|( A-)|( B-)|(原生)|(IPLC)|( C-)|(专线+.*港+.*[M])|(香港 [0-2][0-9]+.*AWS)|(直连+.*香港 [0-2][0-9])|(台湾 [0-2][0-9])|(新加坡 [0-2][0-9])|(备用网址)|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(CLPI))
 
 rename_node=转@转cc备用
 rename_node=深港专线@深港专线转
@@ -37,6 +37,7 @@ ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
 ruleset=🛡️ 隐私防护,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
 
+ruleset=✈ 特别节点,https://raw.githubusercontent.com/cian179/dingyue/main/DNS2.list
 ruleset=🥥 DNS,https://raw.githubusercontent.com/cian179/dingyue/main/DNS.list
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 ruleset=🎶 Spotify,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list
@@ -210,7 +211,7 @@ custom_proxy_group=✈ 电报转移`fallback`(`[]♻️ 狮城选择`[]♻️ �
 custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港特别1`[]♻️ 直连特别`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`156,5,299
 custom_proxy_group=✈ 美备转移`fallback`(`[]♻️ 美国节点`[]✈美国原生`[]✈ 台备转移`)`http://www.gstatic.com/generate_204`139,5,159
 custom_proxy_group=✈ 特别2`fallback`(`[]♻️ 香港A高防`[]✈ 特别节点`)`http://www.gstatic.com/generate_204`179,5,159
-custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`119,5,159
+custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]🚀 手动切换`[]特别节点`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`119,5,159
 
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
