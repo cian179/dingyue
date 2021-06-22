@@ -3,7 +3,7 @@
 
 
 
-include_remarks=(( S-)|( A-)|( B-)|(原生)|(IPLC)|( C-)|(专线+.*港+.*[M])|(香港 [0-2][0-9]+.*AWS)|(直连+.*香港 [0-2][0-9])|(台湾 [0-2][0-9])|(新加坡 [0-2][0-9])|(备用网址)|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(CLPI))
+include_remarks=(( S-)|( A-)|( B-)|(原生)|(IPLC)|( C-)|(专线+.*港+.*[M])|(香港 [0-2][0-9]+.*AWS)|(直连+.*香港 [0-2][0-9])|(台湾 [0-2][0-9])|(新加坡 [0-2][0-9])|(网址)|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(CLPI))
 
 rename_node=转@转cc备用
 rename_node=深港专线@深港专线转
@@ -15,7 +15,7 @@ rename_node=Shadowsocks@SS
 rename_node=备用网址@网址
 rename_node=CLPI@pr专线转
 rename_node=游戏专线@游戏专线转
-
+rename_node=备用网址@网址
 rename_node=香港 S0@香港特别 0
 rename_node=直连@直连特别
 rename_node=香港 0@香港特别 0
