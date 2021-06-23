@@ -7,6 +7,17 @@ DOMAIN-KEYWORD,ticktick
 DOMAIN-KEYWORD,dida365
 #DOMAIN-KEYWORD,1password
 DOMAIN,emby.cian.studio
+DOMAIN,rubyfish.cn
+DOMAIN,dns.cfiec.net
+DOMAIN,dot.360.cn
+DOMAIN,doh.360.cn
+DOMAIN,dns.pub
+DOMAIN,doh.pub
+DOMAIN,dns.alidns.com
+IP-CIDR,223.5.5.5/32,no-resolve
+IP-CIDR,223.6.6.6/32,no-resolve
+IP-CIDR,202.102.134.68/32,no-resolve
+IP-CIDR,202.102.128.68/32,no-resolve
 #机场审计
 #DOMAIN-KEYWORD,dafahao
 #DOMAIN-KEYWORD,minghui
