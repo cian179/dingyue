@@ -44,7 +44,6 @@ ruleset=📹 油管视频,https://raw.githubusercontent.com/cian179/dingyue/main
 ruleset=💨 耗费流量,https://raw.githubusercontent.com/cian179/dingyue/main/%E8%80%97%E8%B4%B9%E6%B5%81%E9%87%8F.list
 
 ruleset=🎮 CNSteam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main/ChinaDomain.list
 
@@ -77,7 +76,7 @@ ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ;ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
 ;ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
 
-ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 
 
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
@@ -124,6 +123,7 @@ ruleset=📽 EMBY,https://raw.githubusercontent.com/cian179/dingyue/main/emby.li
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ;ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main/ChinaDomain2.list
 ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Samsung2.list
 ruleset=🩺 ESET,https://raw.githubusercontent.com/cian179/dingyue/main/eset.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
@@ -163,7 +163,7 @@ custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]✈ 港备转移`[]✈ �
 custom_proxy_group=🎮 Steam平台`select`[]✈ 港备转移`[]DIRECT`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
 custom_proxy_group=🎮 CNSteam`select`[]DIRECT`[]✈ 港备转移`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
 
-custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]✈ 港备转移`[]✈ 台备转移`[]🚀 手动切换`[]🚀 节点选择
+;custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]✈ 港备转移`[]✈ 台备转移`[]🚀 手动切换`[]🚀 节点选择
 ;custom_proxy_group=📺 哔哩哔哩`select`[]DIRECT`[]🎯 全球直连`[]✈ 台备转移`[]✈ 港备转移`[]🚀 节点选择`[]🚀 手动切换
 custom_proxy_group=📺 巴哈姆特`select`[]✈ 台备转移`[]✈台湾原生`[]DIRECT`[]✈ 港备转移`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
 custom_proxy_group=🩺 ESET`select`[]DIRECT`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 台备转移`[]✈ 狮备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
