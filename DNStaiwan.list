@@ -1,3 +1,6 @@
 DOMAIN,dns.nextdns.io
 DOMAIN,55b21e.dns.nextdns.io
 DOMAIN,4ba241.dns.nextdns.io
+
+IP-CIDR,45.90.28.58/32,no-resolve
+IP-CIDR,45.90.30.58/32,no-resolve
