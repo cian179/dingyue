@@ -3,7 +3,7 @@
 
 
 
-include_remarks=(( S-)|( A-)|( B-)|(原生)|(IPLC)|( C-)|(专线+.*港+.*[M])|(香港 [0-2][0-9]+.*AWS)|(直连+.*香港 [0-2][0-9])|(台湾 [0-2][0-9])|(新加坡 [0-2][0-9])|(网址)|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(CLPI))
+include_remarks=(( S-)|( A-)|( B-)|(原生)|(IPLC)|( C-)|(专线+.*港+.*[M])|(香港 S[0-2][0-9]+.*AWS)|(香港 N0[0-9]+.*Azure)|(新加坡 N0)|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(CLPI)|(网址))
 
 rename_node=转@转cc备用
 rename_node=深港专线@深港专线转
@@ -11,18 +11,19 @@ rename_node=A-@A-stt
 rename_node=S-@S-stt
 rename_node=B-@B-stt
 rename_node=C-@C-stt
+rename_node=Amazon@AWS
 rename_node=Shadowsocks@SS
 rename_node=备用网址@网址
 rename_node=CLPI@pr专线转
 rename_node=游戏专线@游戏专线转
 rename_node=备用网址@网址
 rename_node=香港 S0@香港特别 0
-rename_node=直连@直连特别
-rename_node=香港 0@香港特别 0
+;rename_node=直连@直连特别
+rename_node=新加坡 N0@新加坡特别 0
+rename_node=香港 N0@香港特别 N
 rename_node=台湾 0@备用台湾特 0
-rename_node=新加坡 0@新加坡特别 0
-;rename_node=香港 2@香港特别 2
-rename_node=香港 1@香港特别 1
+
+
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
@@ -31,12 +32,12 @@ ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list
 
+
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
 ruleset=🛡️ 隐私防护,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
-
 ruleset=✈ 特别节点,https://raw.githubusercontent.com/cian179/dingyue/main/DNS2.list
 ruleset=🥥 DNS,https://raw.githubusercontent.com/cian179/dingyue/main/DNS.list
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
@@ -66,6 +67,7 @@ ruleset=🥂 社交媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Line.list
 ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LineTV.list
 ruleset=🥂 社交媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/43eac837ed6a6ade2f861c85f529656cfb054910/PROXY/Naver.list
+ruleset=🥂 社交媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/43eac837ed6a6ade2f861c85f529656cfb054910/Global-Services/NYTimes.list
 
 ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO.list
 ruleset=🖥 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO_GO_HKG.list
@@ -156,7 +158,7 @@ custom_proxy_group=Ⓜ️ 微软其他`select`[]DIRECT`[]✈ 特别节点`[]✈ 
 
 custom_proxy_group=🛍 海购AmPPeB`select`[]✈ 美备转移`[]✈ 港备转移`[]✈台湾原生`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🇵🇭 Globe`select`[]🏄‍♂️ 菲律宾节点`[]DIRECT`[]✈ 港备转移`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
-custom_proxy_group=💻 Github`select`[]✈ 狮备转移`[]✈ 美备转移`[]✈ 台备转移`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=💻 Github`select`[]✈ 狮备转移`[]✈ 特别节点`[]✈ 特别2`[]✈ 美备转移`[]✈ 台备转移`[]✈ 港备转移`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🗃 群晖`select`[]DIRECT`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
 custom_proxy_group=📥 BTweb`select`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 
@@ -183,7 +185,7 @@ custom_proxy_group=♻️ 狮城选择`url-test`(^(?!.*?原生).*(新加坡|狮�
 
 
 custom_proxy_group=♻️ 香港特别1`url-test`((香港特别).*(AWS))`http://www.gstatic.com/generate_204`226,5,50
-custom_proxy_group=♻️ 直连特别`url-test`直连特别`http://www.gstatic.com/generate_204`386,5,50
+custom_proxy_group=♻️ 香港特别2`url-test`((香港特别).*(Azure))`http://www.gstatic.com/generate_204`386,5,50
 
 custom_proxy_group=♻️ 香港A高防`url-test`(香港+.*A+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
 custom_proxy_group=♻️ 香港B高防`url-test`(香港+.*B+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
@@ -204,15 +206,14 @@ custom_proxy_group=♻️ 专线选择`url-test`(^(?!.*?IPLC).*(专线).*(港))`
 custom_proxy_group=♻️ 备用节点`fallback`[]♻️ 港备用`[]♻️ 台备用`http://www.gstatic.com/generate_204`333,5,70
 
 custom_proxy_group=✈ 台备转移`fallback`(`[]♻️ 台湾原生`[]✈台湾原生`台湾特`[]♻️ 台备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`)`http://www.gstatic.com/generate_204`119,5,159
-custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港原生`[]♻️ 香港特别1`[]♻️ 港备用`[]♻️ 香港A高防`[]♻️ 专线选择`[]♻️ 自动选择`)`http://www.gstatic.com/generate_204`109,5,170
+custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港原生`[]♻️ 香港特别1`[]✈ 特别节点`[]♻️ 港备用`[]♻️ 专线选择`[]♻️ 自动选择`)`http://www.gstatic.com/generate_204`109,5,170
 custom_proxy_group=✈ 狮备转移`fallback`(`[]♻️ 狮城原生`[]♻️ 狮城选择`[]♻️ 日本高防`[]♻️ 香港A高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`)`http://www.gstatic.com/generate_204`129,5,170
-custom_proxy_group=✈ 电报转移`fallback`(`[]♻️ 狮城选择`[]♻️ 狮城原生`[]✈ 特别节点`[]♻️ 狮城原生`)`http://www.gstatic.com/generate_204`129,5,170
+custom_proxy_group=✈ 电报转移`fallback`(`[]♻️ 狮城选择`[]♻️ 狮城原生`[]✈ 特别节点`)`http://www.gstatic.com/generate_204`129,5,170
 
-custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港特别1`[]♻️ 直连特别`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`156,5,299
+custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港特别1`[]♻️ 香港特别2`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`156,5,299
 custom_proxy_group=✈ 美备转移`fallback`(`[]♻️ 美国节点`[]✈美国原生`[]✈ 台备转移`)`http://www.gstatic.com/generate_204`139,5,159
 custom_proxy_group=✈ 特别2`fallback`(`[]♻️ 香港A高防`[]✈ 特别节点`)`http://www.gstatic.com/generate_204`179,5,159
 custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]🚀 手动切换`[]✈ 特别节点`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`119,5,159
-
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
 custom_proxy_group=🛡️ 隐私防护`select`[]REJECT`[]DIRECT
