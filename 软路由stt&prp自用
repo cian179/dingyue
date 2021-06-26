@@ -17,6 +17,7 @@ rename_node=备用网址@网址
 rename_node=CLPI@pr专线转
 rename_node=游戏专线@游戏专线转
 rename_node=备用网址@网址
+rename_node=香港 S04@香港特别 66
 rename_node=香港 S0@香港特别 0
 ;rename_node=直连@直连特别
 rename_node=新加坡 N0@新加坡特别 0
@@ -33,11 +34,13 @@ ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list
 
 
+
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
 ruleset=🛡️ 隐私防护,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+
 ruleset=✈ 特别节点,https://raw.githubusercontent.com/cian179/dingyue/main/DNS2.list
 ruleset=🥥 DNS,https://raw.githubusercontent.com/cian179/dingyue/main/DNS.list
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
@@ -214,6 +217,7 @@ custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港特别1`[]♻️ 香
 custom_proxy_group=✈ 美备转移`fallback`(`[]♻️ 美国节点`[]✈美国原生`[]✈ 台备转移`)`http://www.gstatic.com/generate_204`139,5,159
 custom_proxy_group=✈ 特别2`fallback`(`[]♻️ 香港A高防`[]✈ 特别节点`)`http://www.gstatic.com/generate_204`179,5,159
 custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]🚀 手动切换`[]✈ 特别节点`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`119,5,159
+
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
 custom_proxy_group=🛡️ 隐私防护`select`[]REJECT`[]DIRECT
