@@ -29,14 +29,13 @@ rename_node=台湾 0@备用台湾特 0
 
 
 ;设置规则标志位
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main/justgo.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list
-
 ruleset=✈ 特别节点,https://raw.githubusercontent.com/cian179/dingyue/main/DNS2.list
 ruleset=🥥 DNS,https://raw.githubusercontent.com/cian179/dingyue/main/DNS.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main/justgo.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list
+
+
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 ruleset=🎶 Spotify,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list
 ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Samsung.list
@@ -47,7 +46,7 @@ ruleset=💨 耗费流量,https://raw.githubusercontent.com/cian179/dingyue/main
 ruleset=🎮 CNSteam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main/ChinaDomain.list
 
 
 ruleset=📢 谷歌,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list
@@ -122,6 +121,7 @@ ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 
 ruleset=📽 EMBY,https://raw.githubusercontent.com/cian179/dingyue/main/emby.list
 
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ;ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list
 ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Samsung2.list
