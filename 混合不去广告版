@@ -211,9 +211,9 @@ custom_proxy_group=✈ 电报转移`fallback`(`新城特别`[]✈ 特别节点`)
 
 custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港特别1`[]♻️ 香港特别2`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`156,5,299
 custom_proxy_group=✈ 美备转移`fallback`(`[]♻️ 美国节点`[]✈美国原生`[]✈ 台备转移`)`http://www.gstatic.com/generate_204`139,5,159
-custom_proxy_group=✈ 特别2`fallback`(`[]♻️ 香港A高防`[]✈ 特别节点`)`http://www.gstatic.com/generate_204`179,5,159
-custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]🚀 手动切换`[]✈ 特别节点`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`119,5,159
-custom_proxy_group=✈ DNSTW转移`fallback`(`[]♻️ 台备用`[]♻️ 台湾原生`[]✈ DNS转移`)`http://www.gstatic.com/generate_204`119,5,159
+custom_proxy_group=✈ 特别2`fallback`(`[]♻️ 香港A高防`[]✈ 特别节点`[]DIRECT`)`http://www.gstatic.com/generate_204`179,5,159
+custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]✈ 特别节点`[]✈ 港备转移`[]DIRECT`)`http://www.gstatic.com/generate_204`119,5,159
+custom_proxy_group=✈ DNSTW转移`fallback`(`[]♻️ 台备用`[]♻️ 台湾原生`[]✈ DNS转移`[]DIRECT`)`http://www.gstatic.com/generate_204`119,5,159
 
 
 ;设置分组标志位
