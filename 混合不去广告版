@@ -46,7 +46,7 @@ ruleset=💨 耗费流量,https://raw.githubusercontent.com/cian179/dingyue/main
 
 ruleset=🎮 CNSteam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main/ChinaDomain.list
+
 
 
 ruleset=📢 谷歌,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list
@@ -117,10 +117,9 @@ ruleset=🩺 ESET,https://raw.githubusercontent.com/cian179/dingyue/main/nordon.
 ruleset=Ⓜ️ 微软其他,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list
 ruleset=🇵🇭 Globe,https://raw.githubusercontent.com/cian179/dingyue/main/Globe.list
 ruleset=📥 BTweb,https://raw.githubusercontent.com/cian179/dingyue/main/btdown.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-
+ruleset=🚀 GFW,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 ruleset=📽 EMBY,https://raw.githubusercontent.com/cian179/dingyue/main/emby.list
-
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ;ruleset=🎯 全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list
@@ -172,7 +171,7 @@ custom_proxy_group=🩺 ESET`select`[]DIRECT`[]✈ 特别节点`[]✈ 特别2`[]
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]✈ 特别节点
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 ;custom_proxy_group=🍎 Apple`select`[]🚀 节点选择`[]✈ 特别节点`[]✈ 特别2`[]✈原生转移`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈台湾原生`[]✈ 美备转移`[]DIRECT
-
+custom_proxy_group=🚀 GFW`select`[]🚀 节点选择`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 custom_proxy_group=💰 专线节点`select`(IEP|IPLC|游戏|AIA|专线)
 
 custom_proxy_group=♻️ 自动选择`url-test`((A-)|(B-)|(C-))`http://www.gstatic.com/generate_204`290,5,60
