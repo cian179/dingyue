@@ -12,6 +12,8 @@ DOMAIN,dns.cfiec.net
 DOMAIN,dot.360.cn
 DOMAIN,doh.360.cn
 DOMAIN,dns.pub
+DOMAIN,xunlei.kinh.cc
+DOMAIN-SUFFIX,kinh.cc
 DOMAIN,doh.pub
 DOMAIN,dns.alidns.com
 IP-CIDR,223.5.5.5/32,no-resolve
