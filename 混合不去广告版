@@ -91,6 +91,9 @@ ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
 ruleset=📢 谷歌,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list
 
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/cian179/dingyue/main/game.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Apkpure.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IMDB.list
 ruleset=Ⓜ️ 微软商盘,https://raw.githubusercontent.com/cian179/dingyue/main/onedrivebissuness.list
@@ -106,9 +109,7 @@ ruleset=🛍 海购AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/mas
 ruleset=🛍 海购AmPPeB,https://raw.githubusercontent.com/LM-Firefly/Rules/80dc7e5e77b6416a0f577b5c3515a67c7779018b/PROXY/Shopee.list
 
 
-ruleset=🎮 Steam平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
-ruleset=🎮 游戏平台,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list
-ruleset=🎮 游戏平台,https://raw.githubusercontent.com/cian179/dingyue/main/game.list
+
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/master/GlobalMedia.list
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BrightCove.list
 ruleset=🗃 群晖,https://raw.githubusercontent.com/cian179/dingyue/main/Synology
@@ -161,7 +162,7 @@ custom_proxy_group=🗃 群晖`select`[]DIRECT`[]✈ 特别节点`[]✈ 特别2`
 custom_proxy_group=📥 BTweb`select`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 
 custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]✈ 港备转移`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
-custom_proxy_group=🎮 Steam平台`select`[]✈ 港备转移`[]DIRECT`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
+;custom_proxy_group=🎮 Steam平台`select`[]✈ 港备转移`[]DIRECT`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
 ;custom_proxy_group=🎮 CNSteam`select`[]DIRECT`[]✈ 港备转移`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
 
 ;custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]✈ 港备转移`[]✈ 台备转移`[]🚀 手动切换`[]🚀 节点选择
