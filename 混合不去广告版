@@ -191,7 +191,8 @@ custom_proxy_group=♻️ 香港特别3`url-test`((香港特别 X).*(247))`http:
 
 custom_proxy_group=♻️ 香港特别A`url-test`(`[]♻️ 香港特别1`[]♻️ 香港特别2`[]♻️ 香港特别3`)`http://www.gstatic.com/generate_204`136,5,50
 
-custom_proxy_group=♻️ 香港A高防`url-test`(香港+.*A+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
+custom_proxy_group=♻️ 香港高防`url-test`(香港+.*A+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
+custom_proxy_group=♻️ 香港A高防`url-test`[]♻️ 香港高防`[]♻️ 香港B高防`http://www.gstatic.com/generate_204`120,5,60
 custom_proxy_group=♻️ 香港B高防`url-test`(香港+.*B+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
 custom_proxy_group=♻️ 日本高防`url-test`(日本+.*stt+.*NF)`http://www.gstatic.com/generate_204`190,5,60
 
@@ -214,7 +215,7 @@ custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港
 custom_proxy_group=✈ 狮备转移`fallback`(`[]♻️ 狮城原生`[]♻️ 狮城选择`[]♻️ 日本高防`[]♻️ 香港A高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`[]DIRECT`)`http://www.gstatic.com/generate_204`129,5,170
 custom_proxy_group=✈ 电报转移`fallback`(`新城特别`[]✈ 特别节点B`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`67,5,170
 
-custom_proxy_group=✈ 特别节点B`fallback`[]♻️ 香港特别A`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`96,5,299
+custom_proxy_group=✈ 特别节点B`fallback`[]♻️ 香港特别3`[]♻️ 香港特别A`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`96,5,299
 custom_proxy_group=✈ 特别节点`fallback`[]✈ 特别节点B`[]♻️ 香港A高防`[]✈ 港备转移`[]DIRECT`http://www.gstatic.com/generate_204`36,5,299
 
 
