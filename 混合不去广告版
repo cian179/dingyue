@@ -5,7 +5,7 @@
 
 ;exclude_remarks=(NF*(US))|([0-9]02+.*Pr)(A).*(B)    节点名既有 A又有 B (A)|(B) |(香港 S[0-2][0-9]) |(新加坡 N0) (香港 [0-3][0-9]+.*NF)|  节点名有 A 或者 B  ^((?!A).)*$     节点名不含有 A (?!.*(A)).*(B)  节点名不含有 A，同时含有 B
 
-include_remarks=(( S-)|( A-)|( B-)|(原生)|(IPLC)|( C-)|(专线+.*港+.*[M])|(香港 S[0-2][0-9]+.*AWS)|(香港 N0[0-9]+.*Azure)|(新加坡 N0)|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(CLPI)|(网址))
+include_remarks=(( S-)|( A-)|( B-)|(原生)|(IPLC)|( C-)|(专线+.*港+.*[M])|(香港 X0[0-9]+.*M247)|(香港 S[0-2][0-9]+.*AWS)|(香港 N0[0-9]+.*Azure)|(新加坡 N0)|(俄)|(菲)|(香港+.*[M])|(台+.*[M])|(CLPI)|(网址))
 
 rename_node=转@转cc备用
 rename_node=深港专线@深港专线转
@@ -24,6 +24,8 @@ rename_node=香港 S0@香港特别 0
 ;rename_node=直连@直连特别
 rename_node=新加坡 N0@新城特别 0
 rename_node=香港 N0@香港特别 N
+rename_node=香港 X0@香港特别 X
+rename_node=M247@247
 rename_node=台湾 0@备用台湾特 0
 
 
@@ -185,7 +187,9 @@ custom_proxy_group=♻️ 狮城选择`url-test`(^(?!.*?原生).*(新加坡|狮�
 
 custom_proxy_group=♻️ 香港特别1`url-test`((香港特别).*(Azure))`http://www.gstatic.com/generate_204`226,5,50
 custom_proxy_group=♻️ 香港特别2`url-test`((香港特别).*(AWS))`http://www.gstatic.com/generate_204`386,5,50
-custom_proxy_group=♻️ 香港特别A`url-test`(`[]♻️ 香港特别1`[]♻️ 香港特别2`)`http://www.gstatic.com/generate_204`136,5,50
+custom_proxy_group=♻️ 香港特别3`url-test`((香港特别 X).*(247))`http://www.gstatic.com/generate_204`266,5,50
+
+custom_proxy_group=♻️ 香港特别A`url-test`(`[]♻️ 香港特别1`[]♻️ 香港特别2`[]♻️ 香港特别3`)`http://www.gstatic.com/generate_204`136,5,50
 
 custom_proxy_group=♻️ 香港A高防`url-test`(香港+.*A+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
 custom_proxy_group=♻️ 香港B高防`url-test`(香港+.*B+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
