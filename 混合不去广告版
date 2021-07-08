@@ -199,7 +199,7 @@ custom_proxy_group=♻️ 日本高防`url-test`(日本+.*stt+.*NF)`http://www.g
 custom_proxy_group=✈台湾原生`fallback`(`((台).*(A).*(04).*(原生))`((台).*(A).*(01).*(原生))`((台).*(B).*(02).*(原生))`((台).*(原生))`)`http://www.gstatic.com/generate_204`166,5,70
 custom_proxy_group=✈香港原生`fallback`(`((港).*(C).*(04).*(原生))`((港).*(C).*(原生))`((港).*(B).*(09).*(原生))`((港).*(原生))`)`http://www.gstatic.com/generate_204`152,5,70
 
-custom_proxy_group=✈ 俄国转移`fallback`(`((俄).*(S).*(原生))`((俄).*(S-))`((俄).*(S0))`((俄).*(M))`(俄|俄羅斯|RUS)`)http://www.gstatic.com/generate_204`300,5,100
+custom_proxy_group=✈ 俄国转移`fallback`(`((俄).*(S0))`((俄).*(S).*(原生))`((俄).*(S-))`((俄).*(M))`(俄|俄羅斯|RUS)`)http://www.gstatic.com/generate_204`300,5,100
 custom_proxy_group=✈美国原生`fallback`(`((美).*(5).*(原生))`((美).*(4).*(原生))`((美).*(3).*(原生))`((美).*(原生))`)`http://www.gstatic.com/generate_204`300,5,100
 
 custom_proxy_group=♻️ 韩国节点`url-test`(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`260,5,60
