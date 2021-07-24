@@ -186,7 +186,7 @@ custom_proxy_group=♻️ 狮城选择`url-test`(^(?!.*?原生).*(新加坡|狮�
 
 
 custom_proxy_group=♻️ 香港特别1`url-test`((香港特别).*(Azure))`http://www.gstatic.com/generate_204`226,5,50
-custom_proxy_group=♻️ 香港特别2`url-test`((香港特别).*(NTT))`http://www.gstatic.com/generate_204`386,5,50
+custom_proxy_group=♻️ 香港特别2`url-test`((香港特别))`http://www.gstatic.com/generate_204`386,5,50
 custom_proxy_group=♻️ 韩国特别`url-test`((韩国特别))`http://www.gstatic.com/generate_204`226,5,50
 custom_proxy_group=♻️ 台湾特别`url-test`((台湾特别))`http://www.gstatic.com/generate_204`216,5,50
 custom_proxy_group=♻️ nano特别`url-test`[]♻️ 台湾特别`[]♻️ 韩国特别`http://www.gstatic.com/generate_204`266,5,50
