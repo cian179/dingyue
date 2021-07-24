@@ -19,12 +19,12 @@ rename_node=备用网址@网址
 rename_node=CLPI@pr专线转
 rename_node=游戏专线@游戏专线转
 rename_node=备用网址@网址
-rename_node=香港 S04@香港特别 66
 rename_node=香港 S0@香港特别 0
 ;rename_node=直连@直连特别
-rename_node=新加坡 N0@新城特别 0
+rename_node=新加坡 T0@新城特别 0
 rename_node=香港 N0@香港特别 N
-rename_node=香港 X0@香港特别 X
+rename_node=台湾 T0@台湾特别 X
+rename_node=韩国 N0@韩国特别 X
 rename_node=M247@247
 rename_node=台湾 0@备用台湾特 0
 
@@ -137,7 +137,7 @@ ruleset=🐟 漏网之鱼,[]FINAL
 
 ;设置规则标志位3[0-9][0-9]
 ;设置分组标志位
-custom_proxy_group=🚀 节点选择`select`[]✈ 特别节点`[]✈ 特别2`[]✈ 台备转移`[]✈ 港备转移`[]✈ 狮备转移`[]♻️ 香港A高防`[]💰 专线节点`[]✈ 美备转移`[]♻️ 香港B高防`[]♻️ 韩国节点`[]🏄‍♂️ 菲律宾节点`[]✈ 俄国转移`[]♻️ 日本高防`[]♻️ 备用节点`[]✈美国原生`[]DIRECT`[]🚀 手动切换
+custom_proxy_group=🚀 节点选择`select`[]✈ 特别2`[]✈ 特别节点`[]✈ 台备转移`[]✈ 港备转移`[]✈ 狮备转移`[]♻️ 香港A高防`[]💰 专线节点`[]✈ 美备转移`[]♻️ 香港B高防`[]♻️ 韩国节点`[]🏄‍♂️ 菲律宾节点`[]✈ 俄国转移`[]♻️ 日本高防`[]♻️ 备用节点`[]✈美国原生`[]DIRECT`[]🚀 手动切换
 custom_proxy_group=🚀 手动切换`select`特别`S`香港+.*原生`A`专线`.*
 custom_proxy_group=🥥 DNSTW`select`[]✈ DNSTW转移`[]✈ DNS转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 台备转移`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 美备转移`[]♻️ 韩国节点`[]DIRECT`[]🚀 手动切换`[]🚀 节点选择
 custom_proxy_group=🥥 DNS`select`[]✈ DNS转移`[]✈ DNSTW转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 台备转移`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 美备转移`[]♻️ 韩国节点`[]♻️ 备用节点`[]DIRECT`[]🚀 手动切换`[]🚀 节点选择
@@ -147,8 +147,8 @@ custom_proxy_group=🎶 Spotify`select`[]DIRECT`[]✈ 特别2`[]✈ 特别节点
 custom_proxy_group=🎥 奈飞视频`select`[]✈ 港备转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🌍 国外媒体`select`[]✈ 港备转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 custom_proxy_group=🖥 HBO`select`[]✈ 美备转移`[]✈ 港备转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=📱 Samsung`select`[]✈ 港备转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]♻️ 香港A高防`[]♻️ 日本高防`[]DIRECT`[]♻️ 韩国节点
-custom_proxy_group=📹 油管视频`select`[]✈ 港备转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
+custom_proxy_group=📱 Samsung`select`[]🚀 节点选择`[]✈ 港备转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 手动切换`[]♻️ 香港A高防`[]♻️ 日本高防`[]DIRECT`[]♻️ 韩国节点
+custom_proxy_group=📹 油管视频`select`[]✈ 台备转移`[]🚀 节点选择`[]✈ 港备转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 狮备转移`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 custom_proxy_group=📢 谷歌`select`[]✈ 台备转移`[]✈ 港备转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 狮备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 custom_proxy_group=💨 耗费流量`select`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换
 custom_proxy_group=🥂 社交媒体`select`[]✈ 台备转移`[]✈台湾原生`[]✈ 港备转移`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
@@ -159,7 +159,7 @@ custom_proxy_group=Ⓜ️ 微软其他`select`[]DIRECT`[]✈ 特别节点`[]✈ 
 
 custom_proxy_group=🛍 海购AmPPeB`select`[]✈ 美备转移`[]✈ 港备转移`[]✈台湾原生`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🇵🇭 Globe`select`[]🏄‍♂️ 菲律宾节点`[]DIRECT`[]✈ 港备转移`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
-custom_proxy_group=💻 Github`select`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 美备转移`[]✈ 台备转移`[]✈ 港备转移`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=💻 Github`select`[]🚀 节点选择`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 美备转移`[]✈ 台备转移`[]✈ 港备转移`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🗃 群晖`select`[]DIRECT`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
 custom_proxy_group=📥 BTweb`select`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 
@@ -170,7 +170,7 @@ custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]✈ 港备转移`[]✈ �
 ;custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]✈ 港备转移`[]✈ 台备转移`[]🚀 手动切换`[]🚀 节点选择
 ;custom_proxy_group=📺 哔哩哔哩`select`[]DIRECT`[]🎯 全球直连`[]✈ 台备转移`[]✈ 港备转移`[]🚀 节点选择`[]🚀 手动切换
 custom_proxy_group=📺 巴哈姆特`select`[]✈ 台备转移`[]✈台湾原生`[]DIRECT`[]✈ 港备转移`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
-custom_proxy_group=🩺 ESET`select`[]DIRECT`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 台备转移`[]✈ 狮备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
+custom_proxy_group=🩺 ESET`select`[]🚀 节点选择`[]DIRECT`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 台备转移`[]✈ 狮备转移`[]🚀 手动切换`[]✈ 美备转移
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]✈ 特别节点
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 ;custom_proxy_group=🍎 Apple`select`[]🚀 节点选择`[]✈ 特别节点`[]✈ 特别2`[]✈原生转移`[]♻️ 台湾原生`[]♻️ 香港原生`[]✈台湾原生`[]✈ 美备转移`[]DIRECT
@@ -186,10 +186,14 @@ custom_proxy_group=♻️ 狮城选择`url-test`(^(?!.*?原生).*(新加坡|狮�
 
 
 custom_proxy_group=♻️ 香港特别1`url-test`((香港特别).*(Azure))`http://www.gstatic.com/generate_204`226,5,50
-custom_proxy_group=♻️ 香港特别2`url-test`((香港特别).*(AWS))`http://www.gstatic.com/generate_204`386,5,50
-custom_proxy_group=♻️ 香港特别3`url-test`[]♻️ 香港特别1`[]♻️ 香港特别2`((香港特别 X).*(247))`http://www.gstatic.com/generate_204`266,5,50
+custom_proxy_group=♻️ 香港特别2`url-test`((香港特别).*(NTT))`http://www.gstatic.com/generate_204`386,5,50
+custom_proxy_group=♻️ 韩国特别`url-test`((韩国特别))`http://www.gstatic.com/generate_204`226,5,50
+custom_proxy_group=♻️ 台湾特别`url-test`((台湾特别))`http://www.gstatic.com/generate_204`216,5,50
+custom_proxy_group=♻️ nano特别`url-test`[]♻️ 台湾特别`[]♻️ 韩国特别`http://www.gstatic.com/generate_204`266,5,50
 
 custom_proxy_group=♻️ 香港特别A`url-test`(`[]♻️ 香港特别1`[]♻️ 香港特别2`)`http://www.gstatic.com/generate_204`136,5,50
+custom_proxy_group=♻️ 香港特别B`url-test`(`[]♻️ 香港特别A`[]♻️ nano特别`)`http://www.gstatic.com/generate_204`126,5,50
+
 
 custom_proxy_group=♻️ 香港高防`url-test`(香港+.*A+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
 custom_proxy_group=♻️ 香港A高防`url-test`[]♻️ 香港高防`[]♻️ 香港B高防`http://www.gstatic.com/generate_204`120,5,60
@@ -215,8 +219,8 @@ custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港
 custom_proxy_group=✈ 狮备转移`fallback`(`[]♻️ 狮城原生`[]♻️ 狮城选择`[]♻️ 日本高防`[]♻️ 香港A高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`[]DIRECT`)`http://www.gstatic.com/generate_204`129,5,170
 custom_proxy_group=✈ 电报转移`fallback`(`新城特别`[]✈ 特别节点B`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`67,5,170
 
-custom_proxy_group=✈ 特别节点B`fallback`[]♻️ 香港特别A`[]♻️ 香港特别3`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`96,5,299
-custom_proxy_group=✈ 特别节点`fallback`[]✈ 特别节点B`[]♻️ 香港A高防`[]✈ 港备转移`[]DIRECT`http://www.gstatic.com/generate_204`36,5,299
+custom_proxy_group=✈ 特别节点B`fallback`[]♻️ 香港特别A`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ nano特别`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`96,5,299
+custom_proxy_group=✈ 特别节点`fallback`[]♻️ nano特别`[]✈ 特别节点B`[]♻️ 香港A高防`[]✈ 港备转移`[]DIRECT`http://www.gstatic.com/generate_204`36,5,299
 
 
 custom_proxy_group=✈ 美备转移`fallback`(`[]♻️ 美国节点`[]✈美国原生`[]✈ 台备转移`)`http://www.gstatic.com/generate_204`139,5,159
