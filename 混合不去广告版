@@ -225,7 +225,7 @@ custom_proxy_group=✈ 特别节点`fallback`[]♻️ nano特别`[]✈ 特别节
 
 custom_proxy_group=✈ 美备转移`fallback`(`[]♻️ 美国节点`[]✈美国原生`[]✈ 台备转移`)`http://www.gstatic.com/generate_204`139,5,159
 custom_proxy_group=✈ 特别2`fallback`(`[]♻️ 香港A高防`[]♻️ 香港原生`[]✈ 港备转移`[]DIRECT`)`http://www.gstatic.com/generate_204`33,5,159
-custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]✈ 港备转移`[]♻️ 特别节点`[]DIRECT`)`http://www.gstatic.com/generate_204`39,5,159
+custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]✈ 港备转移`[]✈ 特别节点`[]DIRECT`)`http://www.gstatic.com/generate_204`39,5,159
 custom_proxy_group=✈ DNSTW转移`fallback`(`[]♻️ 台备用`[]♻️ 台湾原生`[]✈ DNS转移`[]DIRECT`)`http://www.gstatic.com/generate_204`51,5,159
 
 
