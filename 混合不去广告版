@@ -215,17 +215,17 @@ custom_proxy_group=♻️ 专线选择`url-test`(^(?!.*?IPLC).*(专线).*(港))`
 custom_proxy_group=♻️ 备用节点`fallback`[]♻️ 港备用`[]♻️ 台备用`http://www.gstatic.com/generate_204`333,5,70
 
 custom_proxy_group=✈ 台备转移`fallback`(`[]♻️ 台湾原生`[]✈台湾原生`台湾特`[]♻️ 台备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`[]DIRECT`)`http://www.gstatic.com/generate_204`119,5,159
-custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港原生`[]♻️ 香港A高防`[]✈ 特别节点B`[]♻️ 港备用`[]♻️ 专线选择`[]♻️ 自动选择`[]DIRECT`)`http://www.gstatic.com/generate_204`109,5,170
+custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港原生`[]♻️ 香港A高防`[]♻️ 日本高防`[]✈ 特别节点B`[]♻️ 港备用`[]♻️ 专线选择`[]♻️ 自动选择`[]DIRECT`)`http://www.gstatic.com/generate_204`109,5,170
 custom_proxy_group=✈ 狮备转移`fallback`(`[]♻️ 狮城原生`[]♻️ 狮城选择`[]♻️ 日本高防`[]♻️ 香港A高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`[]DIRECT`)`http://www.gstatic.com/generate_204`129,5,170
-custom_proxy_group=✈ 电报转移`fallback`(`新城特别`[]✈ 特别节点B`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`67,5,170
+custom_proxy_group=✈ 电报转移`fallback`(`新城特别`[]✈ 特别节点`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`67,5,170
 
 custom_proxy_group=✈ 特别节点B`fallback`[]♻️ 香港特别A`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ nano特别`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`96,5,299
 custom_proxy_group=✈ 特别节点`fallback`[]♻️ nano特别`[]✈ 特别节点B`[]♻️ 香港A高防`[]✈ 港备转移`[]DIRECT`http://www.gstatic.com/generate_204`36,5,299
 
 
 custom_proxy_group=✈ 美备转移`fallback`(`[]♻️ 美国节点`[]✈美国原生`[]✈ 台备转移`)`http://www.gstatic.com/generate_204`139,5,159
-custom_proxy_group=✈ 特别2`fallback`(`[]♻️ 香港A高防`[]♻️ 香港原生`[]✈ 特别节点B`[]✈ 港备转移`[]DIRECT`)`http://www.gstatic.com/generate_204`33,5,159
-custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]✈ 特别节点B`[]✈ 港备转移`[]DIRECT`)`http://www.gstatic.com/generate_204`39,5,159
+custom_proxy_group=✈ 特别2`fallback`(`[]♻️ 香港A高防`[]♻️ 香港原生`[]✈ 港备转移`[]DIRECT`)`http://www.gstatic.com/generate_204`33,5,159
+custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]♻️ 香港特别B`[]✈ 港备转移`[]DIRECT`)`http://www.gstatic.com/generate_204`39,5,159
 custom_proxy_group=✈ DNSTW转移`fallback`(`[]♻️ 台备用`[]♻️ 台湾原生`[]✈ DNS转移`[]DIRECT`)`http://www.gstatic.com/generate_204`51,5,159
 
 
