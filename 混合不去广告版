@@ -190,7 +190,7 @@ custom_proxy_group=♻️ 香港特别2`url-test`((香港特别))`http://www.gst
 custom_proxy_group=♻️ 韩国特别`url-test`((韩国特别))`http://www.gstatic.com/generate_204`226,5,50
 custom_proxy_group=♻️ 台湾特别`url-test`((台湾特别))`http://www.gstatic.com/generate_204`216,5,50
 custom_proxy_group=♻️ nano特别`url-test`[]♻️ 台湾特别`[]♻️ 韩国特别`[]♻️ 香港特别2`http://www.gstatic.com/generate_204`266,5,50
-
+custom_proxy_group=♻️ 新城特别`url-test`((新城特别))`http://www.gstatic.com/generate_204`236,5,50
 
 custom_proxy_group=♻️ 香港特别B`url-test`(`[]♻️ 香港特别2`[]♻️ nano特别`)`http://www.gstatic.com/generate_204`126,5,50
 
@@ -214,10 +214,10 @@ custom_proxy_group=♻️ 台备用`url-test`(^(?!.*?专线).*(备用).*(台))`h
 custom_proxy_group=♻️ 专线选择`url-test`(^(?!.*?IPLC).*(专线).*(港))`http://www.gstatic.com/generate_204`200,5,50
 custom_proxy_group=♻️ 备用节点`fallback`[]♻️ 港备用`[]♻️ 台备用`http://www.gstatic.com/generate_204`333,5,70
 
-custom_proxy_group=✈ 台备转移`fallback`(`[]♻️ 台湾原生`[]✈台湾原生`台湾特`[]♻️ 台备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`[]DIRECT`)`http://www.gstatic.com/generate_204`119,5,159
+custom_proxy_group=✈ 台备转移`fallback`(`[]♻️ 台湾原生`[]✈台湾原生`[]♻️ 台湾特别`[]♻️ 台备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`[]DIRECT`)`http://www.gstatic.com/generate_204`119,5,159
 custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港原生`[]♻️ 香港A高防`[]♻️ 日本高防`[]♻️ 港备用`[]✈ 特别节点B`[]♻️ 专线选择`[]♻️ 自动选择`[]DIRECT`)`http://www.gstatic.com/generate_204`109,5,170
 custom_proxy_group=✈ 狮备转移`fallback`(`[]♻️ 狮城原生`[]♻️ 狮城选择`[]♻️ 日本高防`[]♻️ 香港A高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`[]DIRECT`)`http://www.gstatic.com/generate_204`129,5,170
-custom_proxy_group=✈ 电报转移`fallback`(`新城特别`[]✈ 特别节点`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`67,5,170
+custom_proxy_group=✈ 电报转移`fallback`(`[]♻️ 新城特别`[]✈ 特别节点`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`67,5,170
 
 custom_proxy_group=✈ 特别节点B`fallback`[]♻️ 香港特别B`[]♻️ nano特别`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`96,5,299
 custom_proxy_group=✈ 特别节点`fallback`[]♻️ nano特别`[]✈ 特别节点B`[]♻️ 香港A高防`[]✈ 港备转移`[]DIRECT`http://www.gstatic.com/generate_204`36,5,299
