@@ -185,14 +185,14 @@ custom_proxy_group=♻️ 美国节点`url-test`((美).*(4).*(原生))`(美|波�
 custom_proxy_group=♻️ 狮城选择`url-test`(^(?!.*?原生).*(新加坡|狮城|SG|Singapore))`http://www.gstatic.com/generate_204`233,5,50
 
 
-custom_proxy_group=♻️ 香港特别1`url-test`((香港特别).*(Azure))`http://www.gstatic.com/generate_204`226,5,50
+
 custom_proxy_group=♻️ 香港特别2`url-test`((香港特别))`http://www.gstatic.com/generate_204`386,5,50
 custom_proxy_group=♻️ 韩国特别`url-test`((韩国特别))`http://www.gstatic.com/generate_204`226,5,50
 custom_proxy_group=♻️ 台湾特别`url-test`((台湾特别))`http://www.gstatic.com/generate_204`216,5,50
-custom_proxy_group=♻️ nano特别`url-test`[]♻️ 台湾特别`[]♻️ 韩国特别`http://www.gstatic.com/generate_204`266,5,50
+custom_proxy_group=♻️ nano特别`url-test`[]♻️ 台湾特别`[]♻️ 韩国特别`[]♻️ 香港特别2`http://www.gstatic.com/generate_204`266,5,50
 
-custom_proxy_group=♻️ 香港特别A`url-test`(`[]♻️ 香港特别1`[]♻️ 香港特别2`)`http://www.gstatic.com/generate_204`136,5,50
-custom_proxy_group=♻️ 香港特别B`url-test`(`[]♻️ 香港特别A`[]♻️ nano特别`)`http://www.gstatic.com/generate_204`126,5,50
+
+custom_proxy_group=♻️ 香港特别B`url-test`(`[]♻️ 香港特别2`[]♻️ nano特别`)`http://www.gstatic.com/generate_204`126,5,50
 
 
 custom_proxy_group=♻️ 香港高防`url-test`(香港+.*A+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
@@ -219,7 +219,7 @@ custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港
 custom_proxy_group=✈ 狮备转移`fallback`(`[]♻️ 狮城原生`[]♻️ 狮城选择`[]♻️ 日本高防`[]♻️ 香港A高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`[]DIRECT`)`http://www.gstatic.com/generate_204`129,5,170
 custom_proxy_group=✈ 电报转移`fallback`(`新城特别`[]✈ 特别节点`[]✈ 港备转移`)`http://www.gstatic.com/generate_204`67,5,170
 
-custom_proxy_group=✈ 特别节点B`fallback`[]♻️ 香港特别A`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ nano特别`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`96,5,299
+custom_proxy_group=✈ 特别节点B`fallback`[]♻️ nano特别`[]♻️ 香港特别B`[]♻️ 香港A高防`[]♻️ 香港原生`[]♻️ 港备用`[]♻️ 日本高防`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`http://www.gstatic.com/generate_204`96,5,299
 custom_proxy_group=✈ 特别节点`fallback`[]♻️ nano特别`[]✈ 特别节点B`[]♻️ 香港A高防`[]✈ 港备转移`[]DIRECT`http://www.gstatic.com/generate_204`36,5,299
 
 
