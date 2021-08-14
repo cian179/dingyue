@@ -190,7 +190,7 @@ custom_proxy_group=♻️ 港日特别`url-test`((香港特别)|(日本特别))`
 custom_proxy_group=♻️ 韩国特别`url-test`((韩国特别))`http://www.gstatic.com/generate_204`226,5,50
 custom_proxy_group=♻️ 台美特别`url-test`((台湾特别)|(美国特别))`http://www.gstatic.com/generate_204`216,5,50
 
-custom_proxy_group=♻️ nano特别`url-test`[]♻️ 台美特别`[]♻️ 韩国特别`[]♻️ 港日特别`[]♻️ 新城特别`http://www.gstatic.com/generate_204`266,5,50
+custom_proxy_group=♻️ nano特别`url-test`[]♻️ 台美特别`[]♻️ 韩国特别`[]♻️ 港日特别`[]♻️ 新城特别`http://www.gstatic.com/generate_204`56,5,50
 custom_proxy_group=♻️ 新城特别`url-test`((新城特别))`http://www.gstatic.com/generate_204`236,5,50
 
 custom_proxy_group=♻️ 香港特别B`url-test`(`[]♻️ 港日特别`[]♻️ nano特别`)`http://www.gstatic.com/generate_204`126,5,50
