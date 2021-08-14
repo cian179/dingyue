@@ -28,7 +28,7 @@ rename_node=USA 0@美国特别 0
 
 ;设置规则标志位
 ruleset=🥥 DNSTW,https://raw.githubusercontent.com/cian179/dingyue/main/DNStaiwan.list
-ruleset=✈ 特别节点,https://raw.githubusercontent.com/cian179/dingyue/main/DNS2.list
+ruleset=🥥 DNS,https://raw.githubusercontent.com/cian179/dingyue/main/DNS2.list
 ruleset=🥥 DNS,https://raw.githubusercontent.com/cian179/dingyue/main/DNS.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main/justgo.list
