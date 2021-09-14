@@ -222,7 +222,7 @@ custom_proxy_group=♻️ 台备用`url-test`(^(?!.*?专线).*(备用).*(台))`h
 custom_proxy_group=♻️ 专线选择`url-test`(^(?!.*?IPLC).*(专线).*(港))`http://www.gstatic.com/generate_204`133,5,50
 custom_proxy_group=♻️ 备用节点`fallback`[]♻️ 港备用`[]♻️ 台备用`http://www.gstatic.com/generate_204`56,5,70
 
-custom_proxy_group=✈ 备用系统`fallback`[]♻️ 高防选择`[]♻️ 香港特别B`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`[]DIRECT`http://www.gstatic.com/generate_204`33,5,70
+custom_proxy_group=✈ 备用系统`fallback`[]♻️ 高防选择`[]♻️ 香港特别B`[]♻️ 自动选择`[]♻️ 备用节点`[]♻️ 专线选择`[]🚀 手动切换`[]DIRECT`http://www.gstatic.com/generate_204`33,5,70
 
 
 custom_proxy_group=✈ 台备转移`fallback`(`[]♻️ 台湾原生`[]✈台湾原生`[]♻️ 台湾特别`[]♻️ 台备用`[]✈ 备用系统`)`http://www.gstatic.com/generate_204`27,5,159
