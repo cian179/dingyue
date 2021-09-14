@@ -141,7 +141,7 @@ ruleset=🐟 漏网之鱼,[]FINAL
 
 ;设置规则标志位3[0-9][0-9]
 ;设置分组标志位
-custom_proxy_group=🚀 节点选择`select`[]♻️ 综合节点`[]✈ 特别2`[]✈ 特别节点`[]✈ 台备转移`[]✈ 港备转移`[]✈ 狮备转移`[]♻️ 香港A高防`[]💰 专线节点`[]✈ 美备转移`[]♻️ 香港B高防`[]♻️ 韩国节点`[]🏄‍♂️ 菲律宾节点`[]✈ 俄国转移`[]♻️ 日本高防`[]♻️ 备用节点`[]✈美国原生`[]DIRECT`[]🚀 手动切换
+custom_proxy_group=🚀 节点选择`select`[]♻️ 综合节点`[]✈ 特别2`[]✈ 特别节点`[]✈ 台备转移`[]✈ 港备转移`[]✈ 狮备转移`[]♻️ 香港A高防`[]💰 专线节点`[]✈ 美备转移`[]♻️ 韩国节点`[]🏄‍♂️ 菲律宾节点`[]✈ 俄国转移`[]♻️ 日本高防`[]♻️ 备用节点`[]✈美国原生`[]DIRECT`[]🚀 手动切换
 custom_proxy_group=🚀 手动切换`select`特别`S`香港+.*原生`A`专线`.*
 custom_proxy_group=🥥 DNSTW`select`[]✈ DNSTW转移`[]✈ DNS转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 台备转移`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 美备转移`[]♻️ 韩国节点`[]DIRECT`[]🚀 手动切换`[]🚀 节点选择
 custom_proxy_group=🥥 DNS`select`[]✈ DNS转移`[]✈ DNSTW转移`[]✈ 特别2`[]✈ 特别节点`[]✈ 台备转移`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 美备转移`[]♻️ 韩国节点`[]♻️ 备用节点`[]DIRECT`[]🚀 手动切换`[]🚀 节点选择
@@ -167,8 +167,8 @@ custom_proxy_group=💻 Github`select`[]🚀 节点选择`[]✈ 特别节点`[]�
 custom_proxy_group=🗃 群晖`select`[]DIRECT`[]✈ 特别节点`[]♻️ 综合节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移
 custom_proxy_group=📥 BTweb`select`[]🚀 节点选择`[]♻️ 综合节点`[]✈ 特别节点`[]✈ 特别2`[]✈ 港备转移`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 手动切换`[]✈ 美备转移`[]DIRECT
 
-custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]✈ 港备转移`[]♻️ 综合节点`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
-;custom_proxy_group=🎮 Steam平台`select`[]✈ 港备转移`[]DIRECT`[]♻️ 综合节点`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
+custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]✈ 港备转移`[]♻️ 综合节点`[]♻️ 韩国节点`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
+;custom_proxy_group=🎮 Steam平台`select`[]✈ 港备转移`[]DIRECT`[]♻️ 综合节点`[]♻️ 韩国节点`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
 ;custom_proxy_group=🎮 CNSteam`select`[]DIRECT`[]✈ 港备转移`[]♻️ 综合节点`[]✈ 特别节点`[]✈ 特别2`[]✈ 狮备转移`[]✈ 台备转移`[]🚀 节点选择`[]🚀 手动切换`[]✈ 美备转移`[]✈ 俄国转移
 
 ;custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]✈ 港备转移`[]✈ 台备转移`[]🚀 手动切换`[]🚀 节点选择
@@ -203,7 +203,7 @@ custom_proxy_group=♻️ 香港B高防`url-test`(香港+.*B+.*stt+.*NF)`http://
 custom_proxy_group=♻️ 日本高防`url-test`(日本+.*stt+.*NF)`http://www.gstatic.com/generate_204`190,5,60
 custom_proxy_group=♻️ 香港A高防`url-test`[]♻️ 香港高防`[]♻️ 香港B高防`http://www.gstatic.com/generate_204`120,5,60
 custom_proxy_group=♻️ 狮城高防`url-test`(新加坡+.*stt+.*NF)`http://www.gstatic.com/generate_204`193,5,60
-custom_proxy_group=♻️ 高防选择`url-test`[]香港A高防`[]♻️ 狮城高防`[]♻️ 日本高防`[]♻️ 香港高防`http://www.gstatic.com/generate_204`50,5,60
+custom_proxy_group=♻️ 高防选择`url-test`[]♻️ 香港A高防`[]♻️ 狮城高防`[]♻️ 日本高防`[]♻️ 香港高防`http://www.gstatic.com/generate_204`50,5,60
 
 custom_proxy_group=✈台湾原生`fallback`(`((台).*(A).*(04).*(原生))`((台).*(A).*(01).*(原生))`((台).*(B).*(02).*(原生))`((台).*(原生))`)`http://www.gstatic.com/generate_204`166,5,70
 custom_proxy_group=✈香港原生`fallback`(`((港).*(C).*(04).*(原生))`((港).*(C).*(原生))`((港).*(B).*(09).*(原生))`((港).*(原生))`)`http://www.gstatic.com/generate_204`152,5,70
