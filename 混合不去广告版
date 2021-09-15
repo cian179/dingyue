@@ -42,7 +42,7 @@ ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/cian179/dingyue/main/justgo.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list
 
-
+ruleset=🛑 禁止链接,https://raw.githubusercontent.com/cian179/dingyue/main/Ban.list
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 
 ruleset=📱 Samsung,https://raw.githubusercontent.com/cian179/dingyue/main/Samsung.list
@@ -239,7 +239,7 @@ custom_proxy_group=✈ 特别2`fallback`(`[]♻️ 香港A高防`[]♻️ 高防
 custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]✈ 港备转移`[]✈ 特别节点`[]DIRECT`)`http://www.gstatic.com/generate_204`29,5,159
 custom_proxy_group=✈ DNSTW转移`fallback`(`[]♻️ 台备用`[]♻️ 台湾原生`[]♻️ 台湾特别`[]✈ DNS转移`[]DIRECT`)`http://www.gstatic.com/generate_204`51,5,159
 
-
+custom_proxy_group=🛑 禁止链接`select`[]REJECT`[]DIRECT
 ;设置分组标志位
 
 
