@@ -183,37 +183,19 @@ custom_proxy_group=🚀 GFW`select`[]🚀 节点选择`[]♻️ 综合节点`[]�
 custom_proxy_group=💰 专线节点`select`(IEP|IPLC|游戏|AIA|专线)
 
 custom_proxy_group=♻️ 自动选择`url-test`((A-)|(B-)|(C-))`http://www.gstatic.com/generate_204`299,5,60
+
 custom_proxy_group=♻️ 香港原生`url-test`((港).*(原生))`http://www.gstatic.com/generate_204`223,5,50
 custom_proxy_group=♻️ 台湾原生`url-test`((台|新北|彰化|TW|Taiwan).*(原生))`http://www.gstatic.com/generate_204`196,5,70
 custom_proxy_group=♻️ 狮城原生`url-test`((新加坡|狮城|SG|Singapore).*(原生))`http://www.gstatic.com/generate_204`216,5,50
 custom_proxy_group=♻️ 美国节点`url-test`((美).*(4).*(原生))`((美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States).*(stt))`http://www.gstatic.com/generate_204`219,5,50
 custom_proxy_group=♻️ 狮城选择`url-test`(^(?!.*?原生).*(新加坡|狮城|SG|Singapore))`http://www.gstatic.com/generate_204`333,5,50
 
-;custom_proxy_group=♻️ 韩国特别`url-test`(韩国特别)`http://www.gstatic.com/generate_204`357,5,60
-custom_proxy_group=♻️ 美国特别`url-test`((美国特别))`http://www.gstatic.com/generate_204`376,5,50
-custom_proxy_group=♻️ 港日特别`url-test`((香港特别)|(日本特别)|(韩国特别))`http://www.gstatic.com/generate_204`386,5,50
-custom_proxy_group=♻️ 台湾特别`url-test`((台湾特别))`http://www.gstatic.com/generate_204`226,5,50
-custom_proxy_group=♻️ 特殊特别`url-test`((特殊特别))`http://www.gstatic.com/generate_204`216,5,50
-custom_proxy_group=♻️ 澳洲特别`url-test`((澳洲特别))`http://www.gstatic.com/generate_204`396,5,50
-
-custom_proxy_group=♻️ nano特别`url-test`[]♻️ 特殊特别`[]♻️ 台湾特别`[]♻️ 港日特别`[]♻️ 澳洲特别`[]♻️ 美国特别`http://www.gstatic.com/generate_204`36,5,50
-custom_proxy_group=♻️ 香港特别B`url-test`(`[]♻️ 台湾特别`[]♻️ nano特别`[]♻️ 港日特别`)`http://www.gstatic.com/generate_204`26,5,50
-
-custom_proxy_group=♻️ 香港高防`url-test`((香港+.*A+.*stt+.*NF)|(香港+.*C+.*stt+.*NF))`http://www.gstatic.com/generate_204`180,5,60
-custom_proxy_group=♻️ 香港B高防`url-test`(香港+.*B+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
-custom_proxy_group=♻️ 日本高防`url-test`(日本+.*stt+.*NF)`http://www.gstatic.com/generate_204`190,5,60
-custom_proxy_group=♻️ 香港A高防`url-test`[]♻️ 香港高防`[]♻️ 香港B高防`http://www.gstatic.com/generate_204`120,5,60
-custom_proxy_group=♻️ 狮城高防`url-test`(新加坡+.*stt+.*NF)`http://www.gstatic.com/generate_204`193,5,60
-custom_proxy_group=♻️ 高防选择`url-test`[]♻️ 香港A高防`[]♻️ 狮城高防`[]♻️ 日本高防`[]♻️ 香港高防`http://www.gstatic.com/generate_204`30,5,60
 
 custom_proxy_group=✈台湾原生`fallback`(`((台).*(A).*(04).*(原生))`((台).*(A).*(01).*(原生))`((台).*(B).*(02).*(原生))`((台).*(原生))`)`http://www.gstatic.com/generate_204`166,5,70
 custom_proxy_group=✈香港原生`fallback`(`((港).*(C).*(04).*(原生))`((港).*(C).*(原生))`((港).*(B).*(09).*(原生))`((港).*(原生))`)`http://www.gstatic.com/generate_204`152,5,70
-
 custom_proxy_group=✈ 俄国转移`fallback`(`((俄).*(S0))`((俄).*(S).*(原生))`((俄).*(S-))`((俄).*(M))`(俄|俄羅斯|RUS)`)http://www.gstatic.com/generate_204`302,5,100
 custom_proxy_group=✈美国原生`fallback`(`((美).*(5).*(原生))`((美).*(4).*(原生))`((美).*(3).*(原生))`((美).*(原生))`)`http://www.gstatic.com/generate_204`309,5,100
 
-
-custom_proxy_group=♻️ 韩国高防`url-test`(韩国+.*A+.*stt)`http://www.gstatic.com/generate_204`57,5,60
 
 custom_proxy_group=♻️ 韩国节点`fallback`[]♻️ 韩国高防`[]♻️ 综合选择`[]✈ 备用系统`http://www.gstatic.com/generate_204`34,5,60
 custom_proxy_group=🏄‍♂️ 菲律宾节点`url-test`(菲|马尼拉|Philippines|PHL)`http://www.gstatic.com/generate_204`437,5,60
@@ -230,15 +212,34 @@ custom_proxy_group=✈ 台备转移`fallback`(`[]♻️ 台湾原生`[]✈台湾
 custom_proxy_group=✈ 港备转移`fallback`(`[]♻️ 香港原生`[]✈香港原生`[]♻️ 香港A高防`[]♻️ 台湾原生`[]♻️ 港备用`[]✈ 狮备转移`)`http://www.gstatic.com/generate_204`32,5,170
 custom_proxy_group=✈ 狮备转移`fallback`(`[]♻️ 狮城原生`[]♻️ 狮城选择`✈ 备用系统`)`http://www.gstatic.com/generate_204`69,5,170
 
+;custom_proxy_group=♻️ 韩国特别`url-test`(韩国特别)`http://www.gstatic.com/generate_204`357,5,60
+custom_proxy_group=♻️ 美国特别`url-test`((美国特别))`http://www.gstatic.com/generate_204`376,5,50
+custom_proxy_group=♻️ 港日特别`url-test`((香港特别)|(日本特别)|(韩国特别))`http://www.gstatic.com/generate_204`386,5,50
+custom_proxy_group=♻️ 台湾特别`url-test`((台湾特别))`http://www.gstatic.com/generate_204`226,5,50
+custom_proxy_group=♻️ 特殊特别`url-test`((特殊特别))`http://www.gstatic.com/generate_204`216,5,50
+custom_proxy_group=♻️ 澳洲特别`url-test`((澳洲特别))`http://www.gstatic.com/generate_204`396,5,50
+custom_proxy_group=♻️ nano特别`url-test`[]♻️ 特殊特别`[]♻️ 台湾特别`[]♻️ 港日特别`[]♻️ 澳洲特别`[]♻️ 美国特别`http://www.gstatic.com/generate_204`36,5,50
+custom_proxy_group=♻️ 香港特别B`url-test`(`[]♻️ 台湾特别`[]♻️ nano特别`[]♻️ 港日特别`)`http://www.gstatic.com/generate_204`26,5,50
+
 custom_proxy_group=✈ 特别节点`fallback`[]♻️ 香港特别B`[]♻️ nano特别`[]♻️ 香港A高防`[]✈ 备用系统`http://www.gstatic.com/generate_204`29,5,299
+
+custom_proxy_group=♻️ 韩国高防`url-test`(韩国+.*A+.*stt)`http://www.gstatic.com/generate_204`57,5,60
+
+custom_proxy_group=♻️ 香港高防`url-test`((香港+.*A+.*stt+.*NF)|(香港+.*C+.*stt+.*NF))`http://www.gstatic.com/generate_204`180,5,60
+custom_proxy_group=♻️ 香港B高防`url-test`(香港+.*B+.*stt+.*NF)`http://www.gstatic.com/generate_204`180,5,60
+custom_proxy_group=♻️ 日本高防`url-test`(日本+.*stt+.*NF)`http://www.gstatic.com/generate_204`190,5,60
+custom_proxy_group=♻️ 香港A高防`url-test`[]♻️ 香港高防`[]♻️ 香港B高防`http://www.gstatic.com/generate_204`120,5,60
+custom_proxy_group=♻️ 狮城高防`url-test`(新加坡+.*stt+.*NF)`http://www.gstatic.com/generate_204`193,5,60
+custom_proxy_group=♻️ 高防选择`url-test`[]♻️ 香港A高防`[]♻️ 狮城高防`[]♻️ 日本高防`[]♻️ 香港高防`http://www.gstatic.com/generate_204`30,5,60
 
 custom_proxy_group=♻️ 综合选择`url-test`[]✈ 特别节点`[]♻️ 高防选择`[]✈ 特别2`http://www.gstatic.com/generate_204`43,5,50
 custom_proxy_group=♻️ 综合节点`fallback`[]♻️ 综合选择`[]♻️ nano特别`[]✈ 备用系统`http://www.gstatic.com/generate_204`27,5,299
-
 custom_proxy_group=✈ 美备转移`fallback`(`[]♻️ 美国节点`[]✈美国原生`[]✈ 台备转移`)`http://www.gstatic.com/generate_204`59,5,159
 custom_proxy_group=✈ 特别2`fallback`(`[]♻️ 香港A高防`[]♻️ 高防选择`[]♻️ 香港原生`[]✈ 港备转移`[]DIRECT`)`http://www.gstatic.com/generate_204`33,5,159
 custom_proxy_group=✈ DNS转移`fallback`(`[]♻️ 专线选择`[]♻️ 港备用`[]✈ 港备转移`[]✈ 特别节点`[]DIRECT`)`http://www.gstatic.com/generate_204`29,5,159
 custom_proxy_group=✈ DNSTW转移`fallback`(`[]♻️ 台备用`[]♻️ 台湾原生`[]♻️ 台湾特别`[]✈ DNS转移`[]DIRECT`)`http://www.gstatic.com/generate_204`51,5,159
+
+
 
 custom_proxy_group=🛑 禁止链接`select`[]REJECT`[]DIRECT
 ;设置分组标志位
